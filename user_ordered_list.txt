@@ -1,0 +1,625 @@
+1. ARRAYS & HASHING (start here)
+
+Contains Duplicate
+Valid Anagram
+Two Sum
+Concatenation of Array
+Pascal's Triangle I
+Pascal's Triangle II
+Plus One
+Monotonic Array
+Maximum Consecutive Ones
+Height Checker
+Find Pivot Index
+Find All Numbers Disappeared in an Array
+Ransom Note
+Isomorphic Strings
+Word Pattern
+Longest Common Prefix
+Group Anagrams
+Top K Frequent Elements
+Product of Array Except Self
+Encode and Decode Strings
+Valid Sudoku
+Longest Consecutive Sequence
+Kadane's Algorithm / Maximum Subarray
+Best Time to Buy And Sell Stock
+Best Time to Buy And Sell Stock II
+Maximum Product Subarray
+Majority Element-I
+Majority Element II
+Number of Good Pairs
+Roman to Integer
+Integer to Roman
+Length of Last Word
+Reverse Words in a String
+Multiply Strings
+Add Strings
+String to Integer (atoi)
+Compare version numbers
+Count and say
+Longest Palindrome in a string
+Minimum insertions to make string palindrome
+Minimum Remove to Make Valid Parentheses
+Zigzag Conversion
+Text Justification
+Unique Email Addresses
+Maximum Number of Balloons
+Subarray Sum Equals K
+Continuous Subarray Sum
+Largest Subarray with K sum
+Longest Subarray with Sum K
+Count subarrays with given xor K
+Next Permutation
+Rotate matrix by 90 degrees
+Transpose Matrix
+Reshape the Matrix
+Print the matrix in spiral manner
+Search in a 2D matrix
+Set Matrix Zeroes
+Sort Colors (Dutch National Flag)
+Sort an array of 0's 1's and 2's
+Merge two sorted arrays without extra space
+Merge Overlapping Subintervals
+Design HashMap
+Design HashSet
+First Missing Positive
+Trapping Rainwater
+Find the repeating and missing number
+Sort an Array (Merge Sort)
+Inversion of Array (Merge Sort)
+Count Inversions
+Reverse Pairs
+Rabin Karp Algorithm
+KMP Algorithm / LPS Array
+Z function
+Find the Index (strStr)
+Valid Number
+Replace Elements with Greatest on Right
+Range Sum Query Immutable
+Range Sum Query 2D Immutable
+3 Sum
+4 Sum
+
+2. TWO POINTERS
+
+Reverse String
+Valid Palindrome
+Valid Palindrome II
+Squares of a Sorted Array
+Sort Array by Parity
+Move Zeroes
+Merge Sorted Array
+Remove Duplicates From Sorted Array
+Remove Duplicates From Sorted Array II
+Two Sum II Input Array Is Sorted
+Container With Most Water
+Trapping Rain Water
+Backspace String Compare
+String Compression
+Rotate Array
+Merge Strings Alternately
+Reverse Words in a String III
+Boats to Save People
+Bag of Tokens
+Rearrange Array Elements by Sign
+Minimum Length String After Deleting Similar Ends
+Adding Spaces to a String
+Number of Subsequences That Satisfy Sum
+3Sum Smaller
+
+3. SLIDING WINDOW
+
+Maximum Average Subarray I
+Contains Duplicate II
+Longest Substring Without Repeating Characters
+Fruit into Basket
+Max Consecutive Ones III
+Longest Repeating Character Replacement
+Permutation In String
+Find All Anagrams in a String
+Minimum Size Subarray Sum
+Frequency of Most Frequent Element
+Get Equal Substrings Within Budget
+Longest Subarray of 1's After Deleting One Element
+Longest Continuous Subarray With Absolute Diff
+Grumpy Bookstore Owner
+Maximum Number of Vowels in Substring
+Binary Subarrays with Sum
+Count Number of Nice Subarrays
+Number of Substrings Containing All Three
+Subarray Product Less Than K
+Minimum Operations to Reduce X to Zero
+Minimum Number of Flips Binary String
+Longest Substring At Most Two Distinct
+Longest Substring At Most K Distinct
+Maximum Sum of Distinct Subarrays With Length K
+Maximum Beauty of Array After Operation
+Subarrays with K Different Integers
+Minimum Window Substring
+Sliding Window Maximum
+
+4. STACK & QUEUE
+
+Valid Parentheses
+Balanced Parenthesis
+Implement Stack using Arrays
+Implement Queue using Arrays
+Implement Stack using Queue
+Implement Queue using Stack
+Implement Min Stack
+Min Stack
+Sort a Stack
+Baseball Game
+Minimum Add to Make Parentheses Valid
+Remove All Adjacent Duplicates In String II
+Removing Stars From a String
+Make The String Great
+Crawler Log Folder
+Simplify Path
+Basic Calculator II
+Evaluate Reverse Polish Notation
+Decode String
+Reverse Substrings Between Parentheses
+Next Greater Element
+Next Smaller Element
+Daily Temperatures
+Online Stock Span
+Stock span problem
+First Negative Integer in Every Window
+Asteroid Collision
+Car Fleet
+132 Pattern
+Sum of Subarray Minimums
+Sum of Subarray Ranges
+Maximum Width Ramp
+Maximum of Minimums for Every Window Size
+Largest Rectangle In Histogram
+Maximal Rectangle
+Remove K Digits
+Number of Recent Calls
+Flatten Nested List Iterator
+Celebrity Problem
+Validate Stack Sequences
+Maximum Frequency Stack
+Ugly Number II
+Sum of Two Integers (bit-related, fits here conceptually too — see Bit Manipulation)
+Kth Smallest Element in a Sorted Matrix
+Find K Pairs with Smallest Sums
+Smallest Range Covering Elements from K Lists
+Top K Frequent Words
+Rotten Oranges
+
+5. BINARY SEARCH
+
+Binary Search
+Search Insert Position
+Guess Number Higher Or Lower
+First Bad Version
+Sqrt(x)
+Valid Perfect Square
+The N-th root of an integer
+Single element in sorted array
+Find First And Last Position of Element
+Search a 2D Matrix
+Find Minimum In Rotated Sorted Array
+Search In Rotated Sorted Array
+Search In Rotated Sorted Array II
+Search element in sorted and rotated array
+Find Peak Element
+Find in Mountain Array
+Koko Eating Bananas
+Capacity to Ship Packages Within D Days
+Split Array Largest Sum
+Allocate Minimum Number of Pages
+Aggressive Cows
+Magnetic Force Between Two Balls
+Minimize Maximum Difference of Pairs
+Minimum Limit of Balls in a Bag
+Minimum Speed to Arrive on Time
+Minimum Time to Repair Cars
+Find K-th Smallest Pair Distance
+Kth element of 2 sorted arrays
+Median of Two Sorted Arrays
+Matrix Median
+Count the Number of Fair Pairs
+Maximum Number of Removable Characters
+Successful Pairs of Spells and Potions
+Random Pick with Weight
+Time Based Key Value Store
+
+6. LINKED LIST
+
+Design Linked List
+Middle of the Linked List
+Reverse Linked List
+Reverse Linked List II
+Palindrome Linked List
+Merge two Sorted Lists
+Remove Linked List Elements
+Remove Duplicates from Sorted List
+Linked List Cycle
+Detect a loop in LL
+Find Cycle Start (Floyd's Extended)
+Find the starting point in LL
+Intersection of Two Linked Lists
+Add Two Numbers
+Add Two Numbers II
+Remove Nth Node From End
+Swap Nodes In Pairs
+Odd Even / Reorder List
+Rotate List
+Partition List
+Insertion Sort List
+Sort List
+Reverse LL in group of given size K
+Reverse Nodes In K Group
+Copy List With Random Pointer
+Flattening of LL
+Find The Duplicate Number
+Maximum Twin Sum of Linked List
+Swapping Nodes in Linked List
+Split Linked List in Parts
+Remove Nodes From Linked List
+Design Circular Queue
+Design Browser History
+Merge K Sorted Lists
+LRU Cache
+LFU Cache
+
+7. RECURSION & BACKTRACKING
+
+Subsets
+Subsets II
+Permutations
+Permutations II
+Permutations of a String
+Permutation Sequence
+Combinations
+Combination Sum
+Combination Sum II
+Combination Sum IV (actually DP — see DP section)
+Letter Combinations of a Phone Number
+Generate Parentheses
+Palindrome Partitioning
+Restore IP Addresses
+Word Search
+Word Search II (with Trie)
+N-Queens
+N-Queens II
+Rat in a Maze
+M Coloring Problem
+Sudoku Solver
+Matchsticks to Square
+Partition to K Equal Sum Subsets
+Subset Sums
+Sum of All Subset XOR Total
+Word Break (print all ways)
+Word Break II
+Expression Add Operators
+Most Stones Removed with Same Row or Column
+Satisfiability of Equality Equations
+
+8. BINARY TREES
+
+Inorder Traversal
+Preorder Traversal
+Postorder Traversal
+Pre Post Inorder in one traversal
+Morris Inorder Traversal
+Morris Preorder Traversal
+Level Order Traversal
+Binary Tree Level Order Traversal
+Maximum Depth of Binary Tree
+Balanced Binary Tree
+Same Tree
+Symmetric Tree
+Invert Binary Tree
+Diameter of Binary Tree
+Binary Tree Right Side View
+Top View of BT
+Bottom view of BT
+Vertical Order Traversal
+Zig Zag or Spiral Traversal
+Binary Tree Zigzag Level Order
+Boundary Traversal
+Path Sum
+Sum Root to Leaf Numbers
+Print root to leaf path in BT
+Binary Tree Paths
+Children Sum Property
+Count Good Nodes In Binary Tree
+Merge Two Binary Trees
+Leaf-Similar Trees
+Subtree of Another Tree
+Maximum Width of Binary Tree
+Delete Leaves With a Given Value
+Construct BT from Preorder and Inorder
+Construct BT from Postorder and Inorder
+Construct BT from Preorder and Postorder
+All Possible Full Binary Trees
+Populating Next Right Pointers in Each Node
+Flatten Binary Tree to Linked List
+Lowest Common Ancestor of a Binary Tree
+Maximum Width of BT
+Binary Tree Maximum Path Sum
+Serialize And Deserialize Binary Tree
+Find Duplicate Subtrees
+Find Bottom Left Tree Value
+Check Completeness of Binary Tree
+Binary Tree to Doubly Linked List
+House Robber III
+Kth Largest Sum in Binary Tree
+
+9. BINARY SEARCH TREES (BST)
+
+Search in BST
+Ceil in a BST
+Floor in a BST
+Insert into a Binary Search Tree
+Delete Node in a BST
+Validate Binary Search Tree
+Check if a tree is a BST or not
+Kth Smallest Element in a BST
+Kth Smallest and Largest element in BST
+Inorder successor and predecessor in BST
+Two sum in BST
+Range Sum of BST
+Trim a Binary Search Tree
+Convert Sorted Array to BST
+Construct a BST from a preorder traversal
+Construct BST from given keys
+Recover Binary Search Tree
+Lowest Common Ancestor of a BST
+Size of the largest BST in a Binary Tree
+BST iterator
+Unique Binary Search Trees
+
+10. HEAP & PRIORITY QUEUE
+
+Implement Max Heap
+Heap Sort
+Kth Largest Element In An Array
+Kth Largest Element In a Stream
+Last Stone Weight
+K Closest Points to Origin
+Top K Frequent Elements (revisit with heap approach)
+Sort Characters By Frequency
+Reorganize String
+Task Scheduler
+Furthest Building You Can Reach
+Single Threaded CPU
+Car Pooling
+Seat Reservation Manager
+Design Twitter
+Find Median From Data Stream
+Merge K Sorted Arrays
+IPO
+Maximum Performance of a Team
+Minimum Cost to Hire K Workers
+Maximum Subsequence Score
+Maximum Sum Combination
+Least Number Unique Integers After K
+Longest Happy String
+Take Gifts From Richest Pile
+
+11. TRIE
+
+Implement Trie (Prefix Tree)
+Design Add and Search Words
+Extra Characters in a String
+Replace Words
+Longest Word in Dictionary
+Longest Word with All Prefixes
+Number of distinct substrings in a string
+Search Suggestions System
+Maximum XOR of two numbers in an array
+Maximum XOR with Element from Array
+Power Set
+
+12. GRAPHS
+
+DFS/BFS Traversal Basics
+Number of islands
+Max Area of Island
+Flood-fill Algorithm
+Island Perimeter
+01 Matrix
+Rotting Oranges
+Walls And Gates
+Number of Connected Components
+Connected Components
+Number of Provinces
+Clone Graph
+Course Schedule I
+Course Schedule II
+Detect Cycle in Directed Graph (BFS & DFS)
+Detect Cycle in Undirected Graph (BFS & DFS)
+Bipartite Graph Check
+Topological Sort DFS
+Topological Sort BFS
+Alien Dictionary
+Verifying Alien Dictionary
+Course Schedule IV
+Redundant Connection
+Graph Valid Tree
+Minimum Height Trees
+Keys and Rooms
+All Paths From Source to Target
+Evaluate Division
+Accounts Merge
+The Town Judge
+Minimum Number of Vertices to Reach All
+Pacific Atlantic Water Flow
+Surrounded Regions
+Shortest Bridge
+Word Ladder
+Open The Lock
+Snakes and Ladders
+Shortest Path in Binary Matrix
+Path with Minimum Effort
+Swim In Rising Water
+Dijkstra's algorithm
+Network Delay Time (Dijkstra)
+Cheapest Flights Within K Stops
+Bellman-Ford Algorithm
+Floyd Warshall Algorithm
+MST using Prim's Algo
+MST using Kruskal's Algo
+Connecting Cities With Minimum Cost
+Min Cost to Connect All Points
+Find Critical and Pseudo Critical Edges in MST
+Strongly Connected Components (Kosaraju's algo)
+Critical Connections in a Network
+Reconstruct Itinerary
+Greatest Common Divisor Traversal
+Build a Matrix With Conditions
+Parallel Courses
+
+13. GREEDY & INTERVALS
+
+Assign Cookies
+Lemonade Change
+Candy
+Gas Station
+Non-overlapping Intervals
+Merge Intervals
+Insert Interval
+Meeting Rooms
+Meeting Rooms II
+Meeting Rooms III
+Minimum number of platforms required
+N meetings in one room
+Interval List Intersections
+My Calendar I
+Minimum Interval to Include Each Query
+Employee Free Time
+Partition Labels
+Merge Triplets to Form Target Triplet
+Maximum Length of Pair Chain
+Minimum Number Arrows Burst Balloons
+Queue Reconstruction by Height
+Valid Parenthesis String
+Wiggle Subsequence
+Hand of Straights
+Dota2 Senate
+Job sequencing Problem
+Fractional Knapsack
+Minimum coins
+Min Deletions Character Freq Unique
+Partitioning Into Minimum Number of Deci-Binary Numbers
+Earliest Possible Day Full Bloom
+
+14. DYNAMIC PROGRAMMING
+1D DP
+Climbing stairs
+Min Cost Climbing Stairs
+House Robber
+House Robber II
+N-th Tribonacci Number
+Decode Ways
+Integer Break
+Perfect Squares
+Coin Change
+Combination Sum IV
+Delete and Earn
+Longest Increasing Subsequence
+Number of Longest Increasing Subseq
+Maximum Sum Increasing Subsequence
+Longest String Chain
+Russian Doll (Longest Increasing Path variant)
+Grid DP
+Grid unique paths
+Unique Paths
+Unique Paths II
+Minimum Path Sum
+Minimum sum path in the matrix
+Triangle
+Minimum Falling Path Sum
+Maximal Square
+Count Square Submatrices with All Ones
+Longest Increasing Path in Matrix
+Knapsack Family
+0/1 Knapsack
+Unbounded Knapsack
+Subset Sum Equals Target
+Partition Equal Subset Sum
+Coin Change II (Count Ways)
+Target Sum
+Rod cutting problem
+Ones and Zeroes
+Last Stone Weight II
+String DP
+Longest common subsequence
+Longest Palindromic Substring
+Palindromic Substrings
+Edit distance
+Delete Operation for Two Strings
+Distinct Subsequences
+Interleaving String
+Shortest Common Supersequence
+Uncrossed Lines
+Maximum Length of Repeated Subarray
+Wildcard Matching
+Regular Expression Matching
+Word Break
+Partition / MCM Family
+Matrix chain multiplication
+Palindrome Partitioning MCM
+Burst Balloons
+Minimum Cost to Cut a Stick
+Stone Game
+Stone Game II
+Stone Game III
+Super Egg Drop
+Stock DP
+Best Time to Buy And Sell Stock With Cooldown
+Best Time Buy Stock Transaction Fee
+Misc DP
+Maximum Subarray (DP proof variant)
+Max Product Subarray
+Maximum Sum Circular Subarray
+Maximum Profit in Job Scheduling
+Number of Ways to Split Array
+Maximum sum of non adjacent elements
+Jump Game
+Jump Game II
+
+15. BIT MANIPULATION
+
+Number of 1 Bits
+Counting Bits
+Reverse Bits
+Power of Two
+Missing Number
+Find missing number
+Single Number
+Sum of Two Integers
+Reverse Integer
+Bitwise AND of Numbers Range
+Minimum Array End
+Sum of All Subsets XOR Total
+
+16. MATH & MATRIX
+
+Palindrome Number
+Pow(x, n)
+Count Primes
+Happy Number
+Excel Sheet Column Number
+Excel Sheet Column Title
+GCD of Strings
+Fraction to Recurring Decimal
+Plus One (revisit)
+Robot Bounded In Circle
+Largest Number
+Insert Delete GetRandom O(1)
+Design Underground System
+Detect Squares
+Dot Product of Two Sparse Vectors
+Sparse Matrix Multiplication
+Range Addition
+Corporate Flight Bookings
+All O(1) Data Structure
+Contiguous Array
+Quick Sort

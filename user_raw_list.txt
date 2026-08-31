@@ -1,0 +1,441 @@
+1. Arrays & Hashing
+Two Sum
+Contains Duplicate
+Valid Anagram
+Group Anagrams
+Top K Frequent Elements
+Product of Array Except Self
+Longest Consecutive Sequence
+Valid Sudoku
+Majority Element
+Majority Element II
+Missing Number
+Find All Numbers Disappeared in an Array
+Find the Duplicate Number
+Set Matrix Zeroes
+Rotate Image
+Spiral Matrix
+Reshape the Matrix
+Merge Sorted Array
+Move Zeroes
+Remove Duplicates from Sorted Array
+Remove Element
+Sort Colors
+Next Permutation
+Maximum Subarray
+Maximum Product Subarray
+Best Time to Buy and Sell Stock
+Best Time to Buy and Sell Stock II
+Subarray Sum Equals K
+Continuous Subarray Sum
+Longest Subarray with Sum K
+Product of Array Except Self
+Maximum Consecutive Ones III
+First Missing Positive
+Find the Missing and Repeating Number
+Count Inversions
+2. Two Pointers
+Valid Palindrome
+Two Sum II – Input Array Is Sorted
+3Sum
+4Sum
+Container With Most Water
+Trapping Rain Water
+Remove Duplicates from Sorted Array II
+Move Zeroes
+Sort Colors
+Squares of a Sorted Array
+Boats to Save People
+Is Subsequence
+Backspace String Compare
+Minimum Size Subarray Sum
+3. Sliding Window
+Longest Substring Without Repeating Characters
+Longest Repeating Character Replacement
+Permutation in String
+Find All Anagrams in a String
+Minimum Window Substring
+Sliding Window Maximum
+Maximum Average Subarray I
+Maximum Consecutive Ones III
+Fruit Into Baskets
+Longest Subarray of 1's After Deleting One Element
+Minimum Size Subarray Sum
+Subarrays with K Different Integers
+Subarray Product Less Than K
+4. Prefix Sum / Difference Array
+Range Sum Query – Immutable
+Subarray Sum Equals K
+Continuous Subarray Sum
+Product of Array Except Self
+Maximum Size Subarray Sum Equals K
+Contiguous Array
+Corporate Flight Bookings
+Car Pooling
+Range Addition
+Number of Ways to Split Array
+Find Pivot Index
+5. Binary Search
+Binary Search
+Search Insert Position
+First Bad Version
+Search in Rotated Sorted Array
+Search in Rotated Sorted Array II
+Find Minimum in Rotated Sorted Array
+Find Peak Element
+Find First and Last Position of Element in Sorted Array
+Koko Eating Bananas
+Capacity To Ship Packages Within D Days
+Split Array Largest Sum
+Median of Two Sorted Arrays
+Search a 2D Matrix
+Search a 2D Matrix II
+Time Based Key-Value Store
+Minimum Speed to Arrive on Time
+Magnetic Force Between Two Balls
+Aggressive Cows
+Find K-th Smallest Pair Distance
+6. Sorting
+Merge Sort
+Quick Sort
+Heap Sort
+Sort Colors
+Merge Intervals
+Insert Interval
+Largest Number
+Kth Largest Element in an Array
+Top K Frequent Elements
+Sort Characters By Frequency
+Meeting Rooms
+Meeting Rooms II
+7. Linked List
+Reverse Linked List
+Merge Two Sorted Lists
+Linked List Cycle
+Linked List Cycle II
+Middle of the Linked List
+Remove Nth Node From End of List
+Reorder List
+Add Two Numbers
+Intersection of Two Linked Lists
+Palindrome Linked List
+Copy List with Random Pointer
+Reverse Linked List II
+Swap Nodes in Pairs
+Rotate List
+Partition List
+Merge K Sorted Lists
+Sort List
+LRU Cache
+LFU Cache
+8. Stack
+Valid Parentheses
+Min Stack
+Evaluate Reverse Polish Notation
+Generate Parentheses
+Daily Temperatures
+Next Greater Element I
+Next Greater Element II
+Largest Rectangle in Histogram
+Car Fleet
+Simplify Path
+Decode String
+Basic Calculator
+Basic Calculator II
+Asteroid Collision
+Remove K Digits
+Online Stock Span
+9. Monotonic Stack / Queue
+Daily Temperatures
+Next Greater Element
+Next Greater Element II
+Largest Rectangle in Histogram
+Trapping Rain Water
+Sliding Window Maximum
+Sum of Subarray Minimums
+Sum of Subarray Ranges
+Remove K Digits
+Maximal Rectangle
+10. Queue / Deque
+Implement Queue Using Stacks
+Implement Stack Using Queues
+Design Circular Queue
+Number of Recent Calls
+Sliding Window Maximum
+Rotting Oranges
+First Negative Integer in Every Window
+Shortest Subarray with Sum at Least K
+🌳 11. Binary Trees
+Maximum Depth of Binary Tree
+Same Tree
+Invert Binary Tree
+Symmetric Tree
+Subtree of Another Tree
+Diameter of Binary Tree
+Balanced Binary Tree
+Binary Tree Level Order Traversal
+Binary Tree Right Side View
+Binary Tree Zigzag Level Order Traversal
+Binary Tree Maximum Path Sum
+Lowest Common Ancestor of a Binary Tree
+Lowest Common Ancestor of a BST
+Validate Binary Search Tree
+Kth Smallest Element in a BST
+Construct Binary Tree from Preorder and Inorder Traversal
+Construct Binary Tree from Inorder and Postorder Traversal
+Serialize and Deserialize Binary Tree
+Path Sum
+Path Sum II
+Sum Root to Leaf Numbers
+Binary Tree Paths
+Count Good Nodes in Binary Tree
+Flatten Binary Tree to Linked List
+Populating Next Right Pointers in Each Node
+Recover Binary Search Tree
+Convert Sorted Array to Binary Search Tree
+Binary Tree Vertical Order Traversal
+Boundary Traversal of Binary Tree
+12. BST
+Search in a Binary Search Tree
+Insert into a Binary Search Tree
+Delete Node in a BST
+Validate Binary Search Tree
+Kth Smallest Element in a BST
+Lowest Common Ancestor of a BST
+Convert Sorted Array to Binary Search Tree
+Two Sum IV – Input is a BST
+BST Iterator
+Recover Binary Search Tree
+Balance a Binary Search Tree
+🔥 13. Heap / Priority Queue
+Kth Largest Element in an Array
+Kth Smallest Element in a Sorted Matrix
+Top K Frequent Elements
+Top K Frequent Words
+K Closest Points to Origin
+Find Median from Data Stream
+Merge K Sorted Lists
+Merge K Sorted Arrays
+Task Scheduler
+Reorganize String
+Last Stone Weight
+Kth Largest Element in a Stream
+Find K Pairs with Smallest Sums
+Meeting Rooms II
+Smallest Range Covering Elements from K Lists
+IPO
+Ugly Number II
+🔙 14. Backtracking
+Subsets
+Subsets II
+Permutations
+Permutations II
+Combinations
+Combination Sum
+Combination Sum II
+Combination Sum III
+Letter Combinations of a Phone Number
+Generate Parentheses
+Palindrome Partitioning
+Word Search
+N-Queens
+N-Queens II
+Sudoku Solver
+Restore IP Addresses
+Partition to K Equal Sum Subsets
+Matchsticks to Square
+🕸️ 15. Graph BFS / DFS
+Number of Islands
+Number of Connected Components in an Undirected Graph
+Clone Graph
+Max Area of Island
+Flood Fill
+Pacific Atlantic Water Flow
+Surrounded Regions
+Rotting Oranges
+Walls and Gates
+Course Schedule
+Course Schedule II
+Graph Valid Tree
+Word Ladder
+Open the Lock
+Shortest Path in Binary Matrix
+01 Matrix
+Accounts Merge
+Evaluate Division
+Keys and Rooms
+Reconstruct Itinerary
+Alien Dictionary
+Minimum Height Trees
+🕸️ 16. Union Find
+Number of Connected Components in an Undirected Graph
+Graph Valid Tree
+Number of Provinces
+Redundant Connection
+Accounts Merge
+Most Stones Removed with Same Row or Column
+Satisfiability of Equality Equations
+Number of Islands II
+Min Cost to Connect All Points
+⚡ 17. Shortest Path / Advanced Graph
+Network Delay Time
+Cheapest Flights Within K Stops
+Path With Minimum Effort
+Swim in Rising Water
+Dijkstra Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+Minimum Cost to Connect All Points
+Connecting Cities With Minimum Cost
+Cheapest Flights Within K Stops
+Reconstruct Itinerary
+Alien Dictionary
+Parallel Courses
+Course Schedule III
+Critical Connections in a Network
+🧠 18. Greedy
+Best Time to Buy and Sell Stock II
+Jump Game
+Jump Game II
+Gas Station
+Partition Labels
+Merge Triplets to Form Target Triplet
+Hand of Straights
+Assign Cookies
+Non-overlapping Intervals
+Minimum Number of Arrows to Burst Balloons
+Task Scheduler
+Candy
+Partitioning Into Minimum Number of Deci-Binary Numbers
+Maximum Length of Pair Chain
+📅 19. Intervals
+Merge Intervals
+Insert Interval
+Non-overlapping Intervals
+Meeting Rooms
+Meeting Rooms II
+Minimum Number of Arrows to Burst Balloons
+Employee Free Time
+Interval List Intersections
+My Calendar I
+My Calendar II
+Minimum Interval to Include Each Query
+🧩 20. Dynamic Programming — 1D
+Climbing Stairs
+Min Cost Climbing Stairs
+House Robber
+House Robber II
+Longest Palindromic Substring
+Palindromic Substrings
+Decode Ways
+Coin Change
+Coin Change II
+Word Break
+Longest Increasing Subsequence
+Partition Equal Subset Sum
+Combination Sum IV
+Maximum Product Subarray
+Maximum Subarray
+Perfect Squares
+Integer Break
+Delete and Earn
+Decode Ways II
+Jump Game
+Jump Game II
+🧩 21. Dynamic Programming — 2D
+Unique Paths
+Unique Paths II
+Minimum Path Sum
+Longest Common Subsequence
+Edit Distance
+Distinct Subsequences
+Interleaving String
+Longest Increasing Path in a Matrix
+Target Sum
+Last Stone Weight II
+Coin Change II
+0/1 Knapsack
+Unbounded Knapsack
+Regular Expression Matching
+Wildcard Matching
+Burst Balloons
+Palindrome Partitioning II
+Maximum Profit in Job Scheduling
+Best Time to Buy and Sell Stock with Cooldown
+Best Time to Buy and Sell Stock III
+Best Time to Buy and Sell Stock IV
+🔤 22. Strings
+Valid Palindrome
+Valid Anagram
+Group Anagrams
+Longest Palindromic Substring
+Palindromic Substrings
+Longest Substring Without Repeating Characters
+Longest Repeating Character Replacement
+Minimum Window Substring
+Find All Anagrams in a String
+Permutation in String
+Encode and Decode Strings
+String to Integer (atoi)
+Reverse Words in a String
+Longest Common Prefix
+Multiply Strings
+Add Strings
+Compare Version Numbers
+Integer to Roman
+Roman to Integer
+Decode String
+🌲 23. Trie
+Implement Trie
+Design Add and Search Words Data Structure
+Word Search II
+Replace Words
+Maximum XOR of Two Numbers in an Array
+Longest Word in Dictionary
+🔢 24. Bit Manipulation
+Single Number
+Number of 1 Bits
+Counting Bits
+Reverse Bits
+Missing Number
+Sum of Two Integers
+Power of Two
+Bitwise AND of Numbers Range
+Single Number II
+Single Number III
+Subsets
+Maximum XOR of Two Numbers in an Array
+🧮 25. Math / Matrix
+Rotate Image
+Spiral Matrix
+Set Matrix Zeroes
+Happy Number
+Pow(x, n)
+Multiply Strings
+Plus One
+Add Binary
+Sqrt(x)
+Count Primes
+Excel Sheet Column Number
+Excel Sheet Column Title
+Roman to Integer
+Integer to Roman
+Fraction to Recurring Decimal
+String to Integer (atoi)
+🎯 26. Design / Data-Structure Problems
+LRU Cache
+LFU Cache
+Min Stack
+Design Twitter
+Insert Delete GetRandom O(1)
+Insert Delete GetRandom O(1) – Duplicates Allowed
+Design HashMap
+Design HashSet
+Time Based Key-Value Store
+Design Circular Queue
+Design Underground System
+All O(1) Data Structure
+Find Median from Data Stream
+Serialize and Deserialize Binary Tree
+Implement Trie
+Design Add and Search Words Data Structure

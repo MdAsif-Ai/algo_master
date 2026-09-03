@@ -71,7 +71,7 @@
   },
   {
     "id": 49,
-    "title": "Pascal's Triangle I",
+    "title": "Pascal's Triangle",
     "slug": "pascals-triangle-i",
     "url": "https://leetcode.com/problems/pascals-triangle-i/",
     "topic": "Arrays & Hashing",
@@ -366,7 +366,7 @@
   },
   {
     "id": 64,
-    "title": "Kadane's Algorithm",
+    "title": "Maximum Subarray (Kadane's Algorithm)",
     "slug": "kadanes-algorithm",
     "url": "https://leetcode.com/problems/kadanes-algorithm/",
     "topic": "Arrays & Hashing",
@@ -382,7 +382,7 @@
   },
   {
     "id": 1,
-    "title": "Best Time to Buy And Sell Stock",
+    "title": "Best Time to Buy and Sell Stock",
     "slug": "best-time-to-buy-and-sell-stock",
     "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
     "topic": "Arrays & Hashing",
@@ -434,7 +434,7 @@
   },
   {
     "id": 45,
-    "title": "Majority Element-I",
+    "title": "Majority Element",
     "slug": "majority-element-i",
     "url": "https://leetcode.com/problems/majority-element-i/",
     "topic": "Arrays & Hashing",
@@ -590,7 +590,7 @@
   },
   {
     "id": 59,
-    "title": "Compare version numbers",
+    "title": "Compare Version Numbers",
     "slug": "compare-version-numbers",
     "url": "https://leetcode.com/problems/compare-version-numbers/",
     "topic": "Arrays & Hashing",
@@ -606,7 +606,7 @@
   },
   {
     "id": 60,
-    "title": "Count and say",
+    "title": "Count and Say",
     "slug": "count-and-say",
     "url": "https://leetcode.com/problems/count-and-say/",
     "topic": "Arrays & Hashing",
@@ -622,7 +622,7 @@
   },
   {
     "id": 67,
-    "title": "Longest Palindrome in a string",
+    "title": "Longest Palindromic Substring",
     "slug": "longest-palindrome-in-a-string",
     "url": "https://leetcode.com/problems/longest-palindrome-in-a-string/",
     "topic": "Arrays & Hashing",
@@ -638,7 +638,7 @@
   },
   {
     "id": 90,
-    "title": "Minimum insertions to make string palindrome",
+    "title": "Minimum Insertions to Make a String Palindrome",
     "slug": "minimum-insertions-to-make-string-palindrome",
     "url": "https://leetcode.com/problems/minimum-insertions-to-make-string-palindrome/",
     "topic": "Arrays & Hashing",
@@ -823,7 +823,7 @@
   },
   {
     "id": 75,
-    "title": "Rotate matrix by 90 degrees",
+    "title": "Rotate Image",
     "slug": "rotate-matrix-by-90-degrees",
     "url": "https://leetcode.com/problems/rotate-matrix-by-90-degrees/",
     "topic": "Arrays & Hashing",
@@ -866,7 +866,7 @@
   },
   {
     "id": 71,
-    "title": "Print the matrix in spiral manner",
+    "title": "Spiral Matrix",
     "slug": "print-the-matrix-in-spiral-manner",
     "url": "https://leetcode.com/problems/print-the-matrix-in-spiral-manner/",
     "topic": "Arrays & Hashing",
@@ -882,7 +882,7 @@
   },
   {
     "id": 93,
-    "title": "Search in a 2D matrix",
+    "title": "Search a 2D Matrix",
     "slug": "search-in-a-2d-matrix",
     "url": "https://leetcode.com/problems/search-in-a-2d-matrix/",
     "topic": "Arrays & Hashing",
@@ -915,7 +915,7 @@
   },
   {
     "id": 8,
-    "title": "Sort Colors (Dutch National Flag)",
+    "title": "Sort Colors",
     "slug": "sort-colors",
     "url": "https://leetcode.com/problems/sort-colors/",
     "topic": "Arrays & Hashing",
@@ -930,22 +930,6 @@
     ],
     "mlBoost": false,
     "notes": "Classic in-place partition"
-  },
-  {
-    "id": 77,
-    "title": "Sort Colors",
-    "slug": "sort-colors",
-    "url": "https://leetcode.com/problems/sort-colors/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "id": 70,
@@ -1030,7 +1014,7 @@
   },
   {
     "id": 95,
-    "title": "Trapping Rainwater",
+    "title": "Trapping Rain Water",
     "slug": "trapping-rainwater",
     "url": "https://leetcode.com/problems/trapping-rainwater/",
     "topic": "Arrays & Hashing",
@@ -1046,7 +1030,7 @@
   },
   {
     "id": 84,
-    "title": "Find the repeating and missing number",
+    "title": "Find the Repeating and Missing Number",
     "slug": "find-the-repeating-and-missing-number",
     "url": "https://leetcode.com/problems/find-the-repeating-and-missing-number/",
     "topic": "Arrays & Hashing",
@@ -1062,7 +1046,7 @@
   },
   {
     "id": 32,
-    "title": "Sort an Array (Merge Sort)",
+    "title": "Sort an Array",
     "slug": "sort-an-array",
     "url": "https://leetcode.com/problems/sort-an-array/",
     "topic": "Arrays & Hashing",
@@ -1079,7 +1063,7 @@
   },
   {
     "id": 35,
-    "title": "Inversion of Array (Merge Sort)",
+    "title": "Inversion of Array",
     "slug": "inversion-of-array",
     "url": "https://leetcode.com/problems/inversion-of-array/",
     "topic": "Arrays & Hashing",
@@ -1092,17 +1076,6 @@
     ],
     "mlBoost": true,
     "notes": "Tests merge sort mastery"
-  },
-  {
-    "title": "Count Inversions",
-    "difficulty": "Medium",
-    "topic": "Arrays & Hashing",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added from raw list 3",
-    "url": "https://leetcode.com/problemset/all/?search=Count%20Inversions"
   },
   {
     "id": 92,
@@ -1122,7 +1095,7 @@
   },
   {
     "id": 91,
-    "title": "Rabin Karp Algorithm",
+    "title": "Rabin-Karp Algorithm",
     "slug": "rabin-karp-algorithm",
     "url": "https://leetcode.com/problems/rabin-karp-algorithm/",
     "topic": "Arrays & Hashing",
@@ -1138,7 +1111,7 @@
   },
   {
     "id": 36,
-    "title": "KMP Algorithm / LPS Array",
+    "title": "KMP Algorithm (Find Pattern in String)",
     "slug": "kmp-algorithm-lps-array",
     "url": "https://leetcode.com/problems/kmp-algorithm-lps-array/",
     "topic": "Arrays & Hashing",
@@ -1154,7 +1127,7 @@
   },
   {
     "id": 97,
-    "title": "Z function",
+    "title": "Z Algorithm",
     "slug": "z-function",
     "url": "https://leetcode.com/problems/z-function/",
     "topic": "Arrays & Hashing",
@@ -1170,7 +1143,7 @@
   },
   {
     "id": 13,
-    "title": "Find the Index (strStr)",
+    "title": "Find the Index of the First Occurrence in a String (strStr)",
     "slug": "find-the-index",
     "url": "https://leetcode.com/problems/find-the-index/",
     "topic": "Arrays & Hashing",
@@ -1250,7 +1223,7 @@
   },
   {
     "id": 56,
-    "title": "3 Sum",
+    "title": "3Sum",
     "slug": "3-sum",
     "url": "https://leetcode.com/problems/3-sum/",
     "topic": "Arrays & Hashing",
@@ -1266,7 +1239,7 @@
   },
   {
     "id": 57,
-    "title": "4 Sum",
+    "title": "4Sum",
     "slug": "4-sum",
     "url": "https://leetcode.com/problems/4-sum/",
     "topic": "Arrays & Hashing",
@@ -1279,56 +1252,6 @@
     ],
     "mlBoost": false,
     "notes": ""
-  },
-  {
-    "id": 11,
-    "title": "Find All Numbers Disappeared in Array",
-    "slug": "find-all-numbers-disappeared-in-array",
-    "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-array/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Easy",
-    "priority": "P1",
-    "pattern": "Index Mapping",
-    "companies": [
-      "Amazon"
-    ],
-    "mlBoost": false,
-    "notes": "In-place marking trick"
-  },
-  {
-    "id": 15,
-    "title": "Majority Element (Boyer-Moore)",
-    "slug": "majority-element",
-    "url": "https://leetcode.com/problems/majority-element/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Easy",
-    "priority": "P1",
-    "pattern": "Voting Algorithm",
-    "companies": [
-      "Amazon",
-      "Microsoft"
-    ],
-    "mlBoost": false,
-    "notes": "O(1) space solution is key"
-  },
-  {
-    "id": 18,
-    "title": "Pascal's Triangle",
-    "slug": "pascals-triangle",
-    "url": "https://leetcode.com/problems/pascals-triangle/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Easy",
-    "priority": "P1",
-    "pattern": "Simulation",
-    "companies": [
-      "Amazon",
-      "Microsoft"
-    ],
-    "mlBoost": false,
-    "notes": "Basic implementation test"
   },
   {
     "id": 20,
@@ -1345,24 +1268,6 @@
     ],
     "mlBoost": false,
     "notes": "Basic in-place removal"
-  },
-  {
-    "id": 25,
-    "title": "Maximum Subarray (Kadane)",
-    "slug": "maximum-subarray",
-    "url": "https://leetcode.com/problems/maximum-subarray/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P1",
-    "pattern": "DP / Greedy",
-    "companies": [
-      "Amazon",
-      "Microsoft",
-      "Apple"
-    ],
-    "mlBoost": true,
-    "notes": "Foundation for subarray problems"
   },
   {
     "id": 37,
@@ -1397,70 +1302,6 @@
     "notes": "Quick check"
   },
   {
-    "id": 61,
-    "title": "Group Words by Anagrams",
-    "slug": "group-words-by-anagrams",
-    "url": "https://leetcode.com/problems/group-words-by-anagrams/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 62,
-    "title": "Implement ATOI",
-    "slug": "implement-atoi",
-    "url": "https://leetcode.com/problems/implement-atoi/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "String Parsing",
-    "companies": [
-      "Amazon"
-    ],
-    "mlBoost": false,
-    "notes": "Edge case heavy"
-  },
-  {
-    "id": 63,
-    "title": "Implement ATOI/STRSTR",
-    "slug": "implement-atoistrstr",
-    "url": "https://leetcode.com/problems/implement-atoistrstr/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 66,
-    "title": "Longest Consecutive Sequence in an Array",
-    "slug": "longest-consecutive-sequence-in-an-array",
-    "url": "https://leetcode.com/problems/longest-consecutive-sequence-in-an-array/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 68,
     "title": "Maximum Points from Cards",
     "slug": "maximum-points-from-cards",
@@ -1477,41 +1318,8 @@
     "notes": "Sliding window variant"
   },
   {
-    "id": 73,
-    "title": "Reverse every word in a string",
-    "slug": "reverse-every-word-in-a-string",
-    "url": "https://leetcode.com/problems/reverse-every-word-in-a-string/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 74,
-    "title": "Rotate Image",
-    "slug": "rotate-image",
-    "url": "https://leetcode.com/problems/rotate-image/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "Matrix Rotation",
-    "companies": [
-      "Microsoft",
-      "Google"
-    ],
-    "mlBoost": true,
-    "notes": "In-place matrix rotation"
-  },
-  {
     "id": 76,
-    "title": "Search in rotated sorted array-I",
+    "title": "Search in Rotated Sorted Array",
     "slug": "search-in-rotated-sorted-array-i",
     "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-i/",
     "topic": "Arrays & Hashing",
@@ -1524,147 +1332,6 @@
     ],
     "mlBoost": false,
     "notes": ""
-  },
-  {
-    "id": 78,
-    "title": "Sort an array of 0's 1's and 2's",
-    "slug": "sort-an-array-of-0s-1s-and-2s",
-    "url": "https://leetcode.com/problems/sort-an-array-of-0s-1s-and-2s/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 79,
-    "title": "Spiral Matrix",
-    "slug": "spiral-matrix",
-    "url": "https://leetcode.com/problems/spiral-matrix/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "Matrix Traversal",
-    "companies": [
-      "Microsoft",
-      "Amazon",
-      "Google"
-    ],
-    "mlBoost": true,
-    "notes": "Boundary traversal"
-  },
-  {
-    "id": 80,
-    "title": "Stock Buy and Sell",
-    "slug": "stock-buy-and-sell",
-    "url": "https://leetcode.com/problems/stock-buy-and-sell/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 85,
-    "title": "Inversion of Array (Pre-req: Merge Sort)",
-    "slug": "inversion-of-array",
-    "url": "https://leetcode.com/problems/inversion-of-array/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 86,
-    "title": "KMP Algorithm or LPS array",
-    "slug": "kmp-algorithm-or-lps-array",
-    "url": "https://leetcode.com/problems/kmp-algorithm-or-lps-array/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 87,
-    "title": "Majority Element-II",
-    "slug": "majority-element-ii",
-    "url": "https://leetcode.com/problems/majority-element-ii/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 88,
-    "title": "Maximum Product Subarray in an Array",
-    "slug": "maximum-product-subarray-in-an-array",
-    "url": "https://leetcode.com/problems/maximum-product-subarray-in-an-array/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 89,
-    "title": "Min Insertions to Make Palindrome",
-    "slug": "min-insertions-to-make-palindrome",
-    "url": "https://leetcode.com/problems/min-insertions-to-make-palindrome/",
-    "topic": "Arrays & Hashing",
-    "topicOrder": 1,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "DP (LCS variant)",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": "LCS-based"
-  },
-  {
-    "title": "Find the Missing and Repeating Number",
-    "difficulty": "Medium",
-    "topic": "Arrays & Hashing",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added from raw list 3",
-    "url": "https://leetcode.com/problemset/all/?search=Find%20the%20Missing%20and%20Repeating%20Number"
   },
   {
     "id": 114,
@@ -1816,7 +1483,7 @@
   },
   {
     "id": 107,
-    "title": "Two Sum II (Sorted)",
+    "title": "Two Sum II - Input Array Is Sorted",
     "slug": "two-sum-ii",
     "url": "https://leetcode.com/problems/two-sum-ii/",
     "topic": "Two Pointers",
@@ -1847,25 +1514,6 @@
     ],
     "mlBoost": false,
     "notes": "Classic greedy two-pointer"
-  },
-  {
-    "id": 101,
-    "title": "Trapping Rain Water",
-    "slug": "trapping-rain-water",
-    "url": "https://leetcode.com/problems/trapping-rain-water/",
-    "topic": "Two Pointers",
-    "topicOrder": 2,
-    "difficulty": "Hard",
-    "priority": "P0",
-    "pattern": "Two Pointers / Stack",
-    "companies": [
-      "Google",
-      "Amazon",
-      "Meta",
-      "Apple"
-    ],
-    "mlBoost": false,
-    "notes": "THE senior hard problem"
   },
   {
     "id": 102,
@@ -2058,58 +1706,6 @@
     ],
     "mlBoost": false,
     "notes": "Counting variant"
-  },
-  {
-    "id": 99,
-    "title": "3Sum",
-    "slug": "3sum",
-    "url": "https://leetcode.com/problems/3sum/",
-    "topic": "Two Pointers",
-    "topicOrder": 2,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "Sort + Two Pointers",
-    "companies": [
-      "Meta",
-      "Google",
-      "Amazon",
-      "Microsoft"
-    ],
-    "mlBoost": false,
-    "notes": "Top 5 most asked overall"
-  },
-  {
-    "id": 109,
-    "title": "4Sum",
-    "slug": "4sum",
-    "url": "https://leetcode.com/problems/4sum/",
-    "topic": "Two Pointers",
-    "topicOrder": 2,
-    "difficulty": "Medium",
-    "priority": "P1",
-    "pattern": "Sort + Two Pointers",
-    "companies": [
-      "Microsoft",
-      "Amazon"
-    ],
-    "mlBoost": false,
-    "notes": "Extension of 3Sum"
-  },
-  {
-    "id": 117,
-    "title": "Two Sum II Input Array Is Sorted",
-    "slug": "two-sum-ii-input-array-is-sorted",
-    "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-    "topic": "Two Pointers",
-    "topicOrder": 2,
-    "difficulty": "Easy",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "title": "Maximum Average Subarray I",
@@ -2608,24 +2204,8 @@
     "notes": "Almost every company screen"
   },
   {
-    "id": 172,
-    "title": "Balanced Parenthesis",
-    "slug": "balanced-parenthesis",
-    "url": "https://leetcode.com/problems/balanced-parenthesis/",
-    "topic": "Stack & Queue",
-    "topicOrder": 4,
-    "difficulty": "Easy",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 177,
-    "title": "Implement Stack using Arrays",
+    "title": "Implement Stack using Array",
     "slug": "implement-stack-using-arrays",
     "url": "https://leetcode.com/problems/implement-stack-using-arrays/",
     "topic": "Stack & Queue",
@@ -2641,7 +2221,7 @@
   },
   {
     "id": 175,
-    "title": "Implement Queue using Arrays",
+    "title": "Implement Queue using Array",
     "slug": "implement-queue-using-arrays",
     "url": "https://leetcode.com/problems/implement-queue-using-arrays/",
     "topic": "Stack & Queue",
@@ -2657,7 +2237,7 @@
   },
   {
     "id": 178,
-    "title": "Implement Stack using Queue",
+    "title": "Implement Stack using Queues",
     "slug": "implement-stack-using-queue",
     "url": "https://leetcode.com/problems/implement-stack-using-queue/",
     "topic": "Stack & Queue",
@@ -2673,7 +2253,7 @@
   },
   {
     "id": 176,
-    "title": "Implement Queue using Stack",
+    "title": "Implement Queue using Stacks",
     "slug": "implement-queue-using-stack",
     "url": "https://leetcode.com/problems/implement-queue-using-stack/",
     "topic": "Stack & Queue",
@@ -2689,7 +2269,7 @@
   },
   {
     "id": 189,
-    "title": "Implement Min Stack",
+    "title": "Min Stack",
     "slug": "implement-min-stack",
     "url": "https://leetcode.com/problems/implement-min-stack/",
     "topic": "Stack & Queue",
@@ -2702,24 +2282,6 @@
     ],
     "mlBoost": false,
     "notes": ""
-  },
-  {
-    "id": 154,
-    "title": "Min Stack",
-    "slug": "min-stack",
-    "url": "https://leetcode.com/problems/min-stack/",
-    "topic": "Stack & Queue",
-    "topicOrder": 4,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "Stack Design",
-    "companies": [
-      "Amazon",
-      "Apple",
-      "Microsoft"
-    ],
-    "mlBoost": false,
-    "notes": "O(1) getMin - very common"
   },
   {
     "id": 186,
@@ -2919,7 +2481,7 @@
   },
   {
     "id": 162,
-    "title": "Next Greater Element",
+    "title": "Next Greater Element I",
     "slug": "next-greater-element",
     "url": "https://leetcode.com/problems/next-greater-element/",
     "topic": "Stack & Queue",
@@ -2982,22 +2544,6 @@
     ],
     "mlBoost": false,
     "notes": "Next greater variant"
-  },
-  {
-    "id": 187,
-    "title": "Stock span problem",
-    "slug": "stock-span-problem",
-    "url": "https://leetcode.com/problems/stock-span-problem/",
-    "topic": "Stack & Queue",
-    "topicOrder": 4,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "Monotonic Stack",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": "Covered by Next Greater pattern"
   },
   {
     "title": "First Negative Integer in Every Window",
@@ -3119,7 +2665,7 @@
   },
   {
     "id": 155,
-    "title": "Largest Rectangle In Histogram",
+    "title": "Largest Rectangle in Histogram",
     "slug": "largest-rectangle-in-histogram",
     "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
     "topic": "Stack & Queue",
@@ -3190,7 +2736,7 @@
   },
   {
     "id": 188,
-    "title": "Celebrity Problem",
+    "title": "The Celebrity Problem",
     "slug": "celebrity-problem",
     "url": "https://leetcode.com/problems/celebrity-problem/",
     "topic": "Stack & Queue",
@@ -3246,22 +2792,6 @@
     "companies": "",
     "notes": "Added from raw list 3",
     "url": "https://leetcode.com/problemset/all/?search=Ugly%20Number%20II"
-  },
-  {
-    "id": 190,
-    "title": "Largest rectangle in a histogram",
-    "slug": "largest-rectangle-in-a-histogram",
-    "url": "https://leetcode.com/problems/largest-rectangle-in-a-histogram/",
-    "topic": "Stack & Queue",
-    "topicOrder": 4,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "title": "Shortest Subarray with Sum at Least K",
@@ -3351,7 +2881,7 @@
   },
   {
     "id": 217,
-    "title": "The N-th root of an integer",
+    "title": "N-th Root of an Integer",
     "slug": "the-n-th-root-of-an-integer",
     "url": "https://leetcode.com/problems/the-n-th-root-of-an-integer/",
     "topic": "Binary Search",
@@ -3367,7 +2897,7 @@
   },
   {
     "id": 205,
-    "title": "Single element in sorted array",
+    "title": "Single Element in a Sorted Array",
     "slug": "single-element-in-sorted-array",
     "url": "https://leetcode.com/problems/single-element-in-sorted-array/",
     "topic": "Binary Search",
@@ -3399,23 +2929,6 @@
     "notes": "Left/right bound"
   },
   {
-    "id": 194,
-    "title": "Search a 2D Matrix",
-    "slug": "search-a-2d-matrix",
-    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
-    "topic": "Binary Search",
-    "topicOrder": 5,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "Binary Search",
-    "companies": [
-      "Amazon",
-      "Microsoft"
-    ],
-    "mlBoost": true,
-    "notes": "2D search flattened to 1D"
-  },
-  {
     "id": 191,
     "title": "Find Minimum In Rotated Sorted Array",
     "slug": "find-minimum-in-rotated-sorted-array",
@@ -3431,24 +2944,6 @@
     ],
     "mlBoost": false,
     "notes": "Pair with rotated search"
-  },
-  {
-    "id": 193,
-    "title": "Search In Rotated Sorted Array",
-    "slug": "search-in-rotated-sorted-array",
-    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-    "topic": "Binary Search",
-    "topicOrder": 5,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "Modified Binary Search",
-    "companies": [
-      "Amazon",
-      "Google",
-      "Meta"
-    ],
-    "mlBoost": false,
-    "notes": "Top 3 binary search problem"
   },
   {
     "id": 204,
@@ -3678,7 +3173,7 @@
   },
   {
     "id": 212,
-    "title": "Kth element of 2 sorted arrays",
+    "title": "K-th Element of Two Sorted Arrays",
     "slug": "kth-element-of-2-sorted-arrays",
     "url": "https://leetcode.com/problems/kth-element-of-2-sorted-arrays/",
     "topic": "Binary Search",
@@ -3824,7 +3319,7 @@
   },
   {
     "id": 322,
-    "title": "Check if a tree is a BST or not",
+    "title": "Validate Binary Search Tree",
     "slug": "check-if-a-tree-is-a-bst-or-not",
     "url": "https://leetcode.com/problems/check-if-a-tree-is-a-bst-or-not/",
     "topic": "Binary Search",
@@ -3850,24 +3345,8 @@
     "url": "https://leetcode.com/problemset/all/?search=Kth%20Smallest%20Element%20in%20a%20BST"
   },
   {
-    "id": 334,
-    "title": "Kth Smallest and Largest element in BST",
-    "slug": "kth-smallest-and-largest-element-in-bst",
-    "url": "https://leetcode.com/problems/kth-smallest-and-largest-element-in-bst/",
-    "topic": "Binary Search",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 332,
-    "title": "Inorder successor and predecessor in BST",
+    "title": "Inorder Successor in BST",
     "slug": "inorder-successor-and-predecessor-in-bst",
     "url": "https://leetcode.com/problems/inorder-successor-and-predecessor-in-bst/",
     "topic": "Binary Search",
@@ -3883,7 +3362,7 @@
   },
   {
     "id": 345,
-    "title": "Two sum in BST",
+    "title": "Two Sum IV - Input is a BST",
     "slug": "two-sum-in-bst",
     "url": "https://leetcode.com/problems/two-sum-in-bst/",
     "topic": "Binary Search",
@@ -3931,7 +3410,7 @@
   },
   {
     "id": 327,
-    "title": "Construct a BST from a preorder traversal",
+    "title": "Construct Binary Search Tree from Preorder Traversal",
     "slug": "construct-a-bst-from-a-preorder-traversal",
     "url": "https://leetcode.com/problems/construct-a-bst-from-a-preorder-traversal/",
     "topic": "Binary Search",
@@ -3947,7 +3426,7 @@
   },
   {
     "id": 306,
-    "title": "Construct BST from given keys",
+    "title": "Convert Sorted Array to Binary Search Tree",
     "slug": "construct-bst-from-given-keys",
     "url": "https://leetcode.com/problems/construct-bst-from-given-keys/",
     "topic": "Binary Search",
@@ -3962,7 +3441,7 @@
     "notes": ""
   },
   {
-    "title": "Lowest Common Ancestor of a BST",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
     "difficulty": "Medium",
     "topic": "Binary Search",
     "priority": "P2",
@@ -3974,7 +3453,7 @@
   },
   {
     "id": 354,
-    "title": "Size of the largest BST in a Binary Tree",
+    "title": "Largest BST in Binary Tree",
     "slug": "size-of-the-largest-bst-in-a-binary-tree",
     "url": "https://leetcode.com/problems/size-of-the-largest-bst-in-a-binary-tree/",
     "topic": "Binary Search",
@@ -3990,7 +3469,7 @@
   },
   {
     "id": 318,
-    "title": "BST iterator",
+    "title": "BST Iterator",
     "slug": "bst-iterator",
     "url": "https://leetcode.com/problems/bst-iterator/",
     "topic": "Binary Search",
@@ -4021,24 +3500,8 @@
     "notes": "Foundation"
   },
   {
-    "id": 222,
-    "title": "Median of 2 sorted arrays",
-    "slug": "median-of-2-sorted-arrays",
-    "url": "https://leetcode.com/problems/median-of-2-sorted-arrays/",
-    "topic": "Binary Search",
-    "topicOrder": 5,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 224,
-    "title": "Merge two Sorted Lists",
+    "title": "Merge Two Sorted Lists",
     "slug": "merge-two-sorted-lists",
     "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
     "topic": "Linked List",
@@ -4072,7 +3535,7 @@
   },
   {
     "id": 252,
-    "title": "Detect a loop in LL",
+    "title": "Linked List Cycle",
     "slug": "detect-a-loop-in-ll",
     "url": "https://leetcode.com/problems/detect-a-loop-in-ll/",
     "topic": "Linked List",
@@ -4088,7 +3551,7 @@
   },
   {
     "id": 253,
-    "title": "Find Cycle Start (Floyd's Extended)",
+    "title": "Linked List Cycle II",
     "slug": "find-cycle-start",
     "url": "https://leetcode.com/problems/find-cycle-start/",
     "topic": "Linked List",
@@ -4101,22 +3564,6 @@
     ],
     "mlBoost": false,
     "notes": "Cycle start point"
-  },
-  {
-    "id": 255,
-    "title": "Find the starting point in LL",
-    "slug": "find-the-starting-point-in-ll",
-    "url": "https://leetcode.com/problems/find-the-starting-point-in-ll/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "id": 226,
@@ -4153,7 +3600,7 @@
   },
   {
     "id": 229,
-    "title": "Remove Nth Node From End",
+    "title": "Remove Nth Node From End of List",
     "slug": "remove-nth-node-from-end",
     "url": "https://leetcode.com/problems/remove-nth-node-from-end/",
     "topic": "Linked List",
@@ -4266,7 +3713,7 @@
   },
   {
     "id": 266,
-    "title": "Reverse LL in group of given size K",
+    "title": "Reverse Nodes in k-Group",
     "slug": "reverse-ll-in-group-of-given-size-k",
     "url": "https://leetcode.com/problems/reverse-ll-in-group-of-given-size-k/",
     "topic": "Linked List",
@@ -4281,25 +3728,8 @@
     "notes": ""
   },
   {
-    "id": 246,
-    "title": "Reverse Nodes In K Group",
-    "slug": "reverse-nodes-in-k-group",
-    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Hard",
-    "priority": "P1",
-    "pattern": "Linked List Reversal",
-    "companies": [
-      "Google",
-      "Amazon"
-    ],
-    "mlBoost": false,
-    "notes": "K-group reversal"
-  },
-  {
     "id": 227,
-    "title": "Copy List With Random Pointer",
+    "title": "Copy List with Random Pointer",
     "slug": "copy-list-with-random-pointer",
     "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
     "topic": "Linked List",
@@ -4316,7 +3746,7 @@
   },
   {
     "id": 265,
-    "title": "Flattening of LL",
+    "title": "Flatten a Multilevel Doubly Linked List",
     "slug": "flattening-of-ll",
     "url": "https://leetcode.com/problems/flattening-of-ll/",
     "topic": "Linked List",
@@ -4444,7 +3874,7 @@
   },
   {
     "id": 337,
-    "title": "Maximum Width of BT",
+    "title": "Maximum Width of Binary Tree",
     "slug": "maximum-width-of-bt",
     "url": "https://leetcode.com/problems/maximum-width-of-bt/",
     "topic": "Linked List",
@@ -4478,7 +3908,7 @@
   },
   {
     "id": 279,
-    "title": "Serialize And Deserialize Binary Tree",
+    "title": "Serialize and Deserialize Binary Tree",
     "slug": "serialize-and-deserialize-binary-tree",
     "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
     "topic": "Linked List",
@@ -4575,24 +4005,6 @@
     "notes": "Tree + heap combo"
   },
   {
-    "id": 223,
-    "title": "Linked List Cycle",
-    "slug": "linked-list-cycle",
-    "url": "https://leetcode.com/problems/linked-list-cycle/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Easy",
-    "priority": "P0",
-    "pattern": "Floyd's Cycle Detection",
-    "companies": [
-      "Amazon",
-      "Google",
-      "Meta"
-    ],
-    "mlBoost": false,
-    "notes": "Fast/slow pointer foundation"
-  },
-  {
     "id": 225,
     "title": "Reverse Linked List",
     "slug": "reverse-linked-list",
@@ -4614,7 +4026,7 @@
   },
   {
     "id": 231,
-    "title": "Find Middle of Linked List",
+    "title": "Middle of the Linked List",
     "slug": "find-middle-of-linked-list",
     "url": "https://leetcode.com/problems/find-middle-of-linked-list/",
     "topic": "Linked List",
@@ -4725,40 +4137,8 @@
     "notes": "Partial reversal"
   },
   {
-    "id": 247,
-    "title": "Add two numbers as LinkedList",
-    "slug": "add-two-numbers-as-linkedlist",
-    "url": "https://leetcode.com/problems/add-two-numbers-as-linkedlist/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 248,
-    "title": "Check if LL is palindrome or not",
-    "slug": "check-if-ll-is-palindrome-or-not",
-    "url": "https://leetcode.com/problems/check-if-ll-is-palindrome-or-not/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 249,
-    "title": "Delete Node in a LL O(1)",
+    "title": "Delete Node in a Linked List",
     "slug": "delete-node-in-a-ll-o",
     "url": "https://leetcode.com/problems/delete-node-in-a-ll-o/",
     "topic": "Linked List",
@@ -4771,38 +4151,6 @@
     ],
     "mlBoost": false,
     "notes": "Copy next node trick"
-  },
-  {
-    "id": 250,
-    "title": "Delete Node in a Linked List O(1)",
-    "slug": "delete-node-in-a-linked-list-o",
-    "url": "https://leetcode.com/problems/delete-node-in-a-linked-list-o/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 254,
-    "title": "Find the intersection point of Y LL",
-    "slug": "find-the-intersection-point-of-y-ll",
-    "url": "https://leetcode.com/problems/find-the-intersection-point-of-y-ll/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "id": 258,
@@ -4819,38 +4167,6 @@
     ],
     "mlBoost": false,
     "notes": "Descending order"
-  },
-  {
-    "id": 259,
-    "title": "Remove Nth node from the back of the LL",
-    "slug": "remove-nth-node-from-the-back-of-the-ll",
-    "url": "https://leetcode.com/problems/remove-nth-node-from-the-back-of-the-ll/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 260,
-    "title": "Reverse a LL",
-    "slug": "reverse-a-ll",
-    "url": "https://leetcode.com/problems/reverse-a-ll/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "id": 262,
@@ -4883,49 +4199,6 @@
     ],
     "mlBoost": false,
     "notes": "K-th from both ends"
-  },
-  {
-    "id": 264,
-    "title": "Clone a LL with random and next pointer",
-    "slug": "clone-a-ll-with-random-and-next-pointer",
-    "url": "https://leetcode.com/problems/clone-a-ll-with-random-and-next-pointer/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 267,
-    "title": "Rotate a LL",
-    "slug": "rotate-a-ll",
-    "url": "https://leetcode.com/problems/rotate-a-ll/",
-    "topic": "Linked List",
-    "topicOrder": 6,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "title": "Middle of the Linked List",
-    "difficulty": "Medium",
-    "topic": "Linked List",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added from raw list 3",
-    "url": "https://leetcode.com/problemset/all/?search=Middle%20of%20the%20Linked%20List"
   },
   {
     "id": 382,
@@ -4992,22 +4265,6 @@
     ],
     "mlBoost": false,
     "notes": "Handle dup permutations"
-  },
-  {
-    "id": 396,
-    "title": "Permutations of a String",
-    "slug": "permutations-of-a-string",
-    "url": "https://leetcode.com/problems/permutations-of-a-string/",
-    "topic": "Recursion & Backtracking",
-    "topicOrder": 9,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "id": 395,
@@ -5169,7 +4426,7 @@
   },
   {
     "id": 309,
-    "title": "Inorder Traversal",
+    "title": "Binary Tree Inorder Traversal",
     "slug": "inorder-traversal",
     "url": "https://leetcode.com/problems/inorder-traversal/",
     "topic": "Binary Trees",
@@ -5185,7 +4442,7 @@
   },
   {
     "id": 315,
-    "title": "Preorder Traversal",
+    "title": "Binary Tree Preorder Traversal",
     "slug": "preorder-traversal",
     "url": "https://leetcode.com/problems/preorder-traversal/",
     "topic": "Binary Trees",
@@ -5201,7 +4458,7 @@
   },
   {
     "id": 313,
-    "title": "Postorder Traversal",
+    "title": "Binary Tree Postorder Traversal",
     "slug": "postorder-traversal",
     "url": "https://leetcode.com/problems/postorder-traversal/",
     "topic": "Binary Trees",
@@ -5265,7 +4522,7 @@
   },
   {
     "id": 312,
-    "title": "Level Order Traversal",
+    "title": "Binary Tree Level Order Traversal",
     "slug": "level-order-traversal",
     "url": "https://leetcode.com/problems/level-order-traversal/",
     "topic": "Binary Trees",
@@ -5278,24 +4535,6 @@
     ],
     "mlBoost": false,
     "notes": ""
-  },
-  {
-    "id": 268,
-    "title": "Binary Tree Level Order Traversal",
-    "slug": "binary-tree-level-order-traversal",
-    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-    "topic": "Binary Trees",
-    "topicOrder": 7,
-    "difficulty": "Easy",
-    "priority": "P0",
-    "pattern": "BFS",
-    "companies": [
-      "Amazon",
-      "Google",
-      "Meta"
-    ],
-    "mlBoost": false,
-    "notes": "Foundation BFS tree"
   },
   {
     "id": 271,
@@ -5412,7 +4651,7 @@
   },
   {
     "id": 343,
-    "title": "Top View of BT",
+    "title": "Top View of Binary Tree",
     "slug": "top-view-of-bt",
     "url": "https://leetcode.com/problems/top-view-of-bt/",
     "topic": "Binary Trees",
@@ -5428,7 +4667,7 @@
   },
   {
     "id": 320,
-    "title": "Bottom view of BT",
+    "title": "Bottom View of Binary Tree",
     "slug": "bottom-view-of-bt",
     "url": "https://leetcode.com/problems/bottom-view-of-bt/",
     "topic": "Binary Trees",
@@ -5444,7 +4683,7 @@
   },
   {
     "id": 301,
-    "title": "Vertical Order Traversal",
+    "title": "Vertical Order Traversal of Binary Tree",
     "slug": "vertical-order-traversal",
     "url": "https://leetcode.com/problems/vertical-order-traversal/",
     "topic": "Binary Trees",
@@ -5460,7 +4699,7 @@
   },
   {
     "id": 346,
-    "title": "Zig Zag or Spiral Traversal",
+    "title": "Binary Tree Zigzag Level Order Traversal",
     "slug": "zig-zag-or-spiral-traversal",
     "url": "https://leetcode.com/problems/zig-zag-or-spiral-traversal/",
     "topic": "Binary Trees",
@@ -5475,25 +4714,8 @@
     "notes": ""
   },
   {
-    "id": 289,
-    "title": "Binary Tree Zigzag Level Order",
-    "slug": "binary-tree-zigzag-level-order",
-    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order/",
-    "topic": "Binary Trees",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P1",
-    "pattern": "BFS + Direction",
-    "companies": [
-      "Amazon",
-      "Google"
-    ],
-    "mlBoost": false,
-    "notes": "Level order variant"
-  },
-  {
     "id": 290,
-    "title": "Boundary Traversal",
+    "title": "Boundary Traversal of Binary Tree",
     "slug": "boundary-traversal",
     "url": "https://leetcode.com/problems/boundary-traversal/",
     "topic": "Binary Trees",
@@ -5541,7 +4763,7 @@
   },
   {
     "id": 340,
-    "title": "Print root to leaf path in BT",
+    "title": "Root to Leaf Paths",
     "slug": "print-root-to-leaf-path-in-bt",
     "url": "https://leetcode.com/problems/print-root-to-leaf-path-in-bt/",
     "topic": "Binary Trees",
@@ -5631,22 +4853,6 @@
     "notes": "Contains subtree check"
   },
   {
-    "id": 297,
-    "title": "Maximum Width of Binary Tree",
-    "slug": "maximum-width-of-binary-tree",
-    "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
-    "topic": "Binary Trees",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P1",
-    "pattern": "BFS + Indexing",
-    "companies": [
-      "Google"
-    ],
-    "mlBoost": false,
-    "notes": "Index tracking"
-  },
-  {
     "id": 328,
     "title": "Delete Leaves With a Given Value",
     "slug": "delete-leaves-with-a-given-value",
@@ -5664,7 +4870,7 @@
   },
   {
     "id": 278,
-    "title": "Construct BT from Preorder and Inorder",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
     "slug": "construct-bt-from-preorder-and-inorder",
     "url": "https://leetcode.com/problems/construct-bt-from-preorder-and-inorder/",
     "topic": "Binary Trees",
@@ -5681,7 +4887,7 @@
   },
   {
     "id": 302,
-    "title": "Construct BT from Postorder and Inorder",
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
     "slug": "construct-bt-from-postorder-and-inorder",
     "url": "https://leetcode.com/problems/construct-bt-from-postorder-and-inorder/",
     "topic": "Binary Trees",
@@ -5745,59 +4951,6 @@
     "notes": "BST + Inorder"
   },
   {
-    "id": 274,
-    "title": "LCA of BST",
-    "slug": "lca-of-bst",
-    "url": "https://leetcode.com/problems/lca-of-bst/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "BST Property",
-    "companies": [
-      "Meta",
-      "Amazon"
-    ],
-    "mlBoost": false,
-    "notes": "Simpler than general LCA"
-  },
-  {
-    "id": 275,
-    "title": "Lowest Common Ancestor of Binary Tree",
-    "slug": "lowest-common-ancestor-of-binary-tree",
-    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-binary-tree/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "DFS",
-    "companies": [
-      "Meta",
-      "Google",
-      "Amazon"
-    ],
-    "mlBoost": false,
-    "notes": "THE tree recursion problem"
-  },
-  {
-    "id": 276,
-    "title": "Validate Binary Search Tree",
-    "slug": "validate-binary-search-tree",
-    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "DFS + Inorder",
-    "companies": [
-      "Amazon",
-      "Google",
-      "Meta"
-    ],
-    "mlBoost": true,
-    "notes": "BST property understanding"
-  },
-  {
     "id": 282,
     "title": "Insert into a BST",
     "slug": "insert-into-a-bst",
@@ -5830,23 +4983,6 @@
     "notes": "Tree merging"
   },
   {
-    "id": 288,
-    "title": "Symmetric Binary Tree",
-    "slug": "symmetric-binary-tree",
-    "url": "https://leetcode.com/problems/symmetric-binary-tree/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Easy",
-    "priority": "P1",
-    "pattern": "DFS (Mirror)",
-    "companies": [
-      "Amazon",
-      "Microsoft"
-    ],
-    "mlBoost": false,
-    "notes": "Mirror check"
-  },
-  {
     "id": 296,
     "title": "Flatten Binary Tree to Linked List",
     "slug": "flatten-binary-tree-to-linked-list",
@@ -5861,22 +4997,6 @@
     ],
     "mlBoost": false,
     "notes": "In-place flatten"
-  },
-  {
-    "id": 298,
-    "title": "Populating Next Right Pointers",
-    "slug": "populating-next-right-pointers",
-    "url": "https://leetcode.com/problems/populating-next-right-pointers/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P1",
-    "pattern": "BFS/Constant Space",
-    "companies": [
-      "Meta"
-    ],
-    "mlBoost": false,
-    "notes": "Level linking"
   },
   {
     "id": 300,
@@ -5960,57 +5080,9 @@
   },
   {
     "id": 319,
-    "title": "Binary Tree to Doubly Linked List",
+    "title": "Binary Tree to DLL",
     "slug": "binary-tree-to-doubly-linked-list",
     "url": "https://leetcode.com/problems/binary-tree-to-doubly-linked-list/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 321,
-    "title": "Check for balanced binary tree",
-    "slug": "check-for-balanced-binary-tree",
-    "url": "https://leetcode.com/problems/check-for-balanced-binary-tree/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 323,
-    "title": "Check if two trees are identical or not",
-    "slug": "check-if-two-trees-are-identical-or-not",
-    "url": "https://leetcode.com/problems/check-if-two-trees-are-identical-or-not/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 325,
-    "title": "Children Sum Property in Binary Tree",
-    "slug": "children-sum-property-in-binary-tree",
-    "url": "https://leetcode.com/problems/children-sum-property-in-binary-tree/",
     "topic": "Binary Trees & BST",
     "topicOrder": 7,
     "difficulty": "Medium",
@@ -6039,22 +5111,6 @@
     "notes": "Less common"
   },
   {
-    "id": 330,
-    "title": "Find K-th smallest element in BST",
-    "slug": "find-k-th-smallest-element-in-bst",
-    "url": "https://leetcode.com/problems/find-k-th-smallest-element-in-bst/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 331,
     "title": "Inorder Successor/Predecessor in BST",
     "slug": "inorder-successorpredecessor-in-bst",
@@ -6075,70 +5131,6 @@
     "title": "Invert/Flip Binary Tree",
     "slug": "invertflip-binary-tree",
     "url": "https://leetcode.com/problems/invertflip-binary-tree/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 335,
-    "title": "LCA in BST",
-    "slug": "lca-in-bst",
-    "url": "https://leetcode.com/problems/lca-in-bst/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 336,
-    "title": "Maximum Depth in BT",
-    "slug": "maximum-depth-in-bt",
-    "url": "https://leetcode.com/problems/maximum-depth-in-bt/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 338,
-    "title": "Maximum path sum",
-    "slug": "maximum-path-sum",
-    "url": "https://leetcode.com/problems/maximum-path-sum/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 341,
-    "title": "Right/Left View of BT",
-    "slug": "rightleft-view-of-bt",
-    "url": "https://leetcode.com/problems/rightleft-view-of-bt/",
     "topic": "Binary Trees & BST",
     "topicOrder": 7,
     "difficulty": "Medium",
@@ -6183,70 +5175,6 @@
     "notes": "BST pruning"
   },
   {
-    "id": 347,
-    "title": "Construct a BT from Postorder and Inorder",
-    "slug": "construct-a-bt-from-postorder-and-inorder",
-    "url": "https://leetcode.com/problems/construct-a-bt-from-postorder-and-inorder/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 348,
-    "title": "Construct a BT from Preorder and Inorder",
-    "slug": "construct-a-bt-from-preorder-and-inorder",
-    "url": "https://leetcode.com/problems/construct-a-bt-from-preorder-and-inorder/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 349,
-    "title": "LCA in BT",
-    "slug": "lca-in-bt",
-    "url": "https://leetcode.com/problems/lca-in-bt/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 352,
-    "title": "Serialize and De-serialize BT",
-    "slug": "serialize-and-de-serialize-bt",
-    "url": "https://leetcode.com/problems/serialize-and-de-serialize-bt/",
-    "topic": "Binary Trees & BST",
-    "topicOrder": 7,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 353,
     "title": "Size of Largest BST in BT",
     "slug": "size-of-largest-bst-in-bt",
@@ -6264,7 +5192,7 @@
   },
   {
     "id": 316,
-    "title": "Search in BST",
+    "title": "Search in a Binary Search Tree",
     "slug": "search-in-bst",
     "url": "https://leetcode.com/problems/search-in-bst/",
     "topic": "Binary Search Trees (BST)",
@@ -6280,7 +5208,7 @@
   },
   {
     "id": 305,
-    "title": "Ceil in a BST",
+    "title": "Ceil in BST",
     "slug": "ceil-in-a-bst",
     "url": "https://leetcode.com/problems/ceil-in-a-bst/",
     "topic": "Binary Search Trees (BST)",
@@ -6296,7 +5224,7 @@
   },
   {
     "id": 307,
-    "title": "Floor in a BST",
+    "title": "Floor in BST",
     "slug": "floor-in-a-bst",
     "url": "https://leetcode.com/problems/floor-in-a-bst/",
     "topic": "Binary Search Trees (BST)",
@@ -6339,7 +5267,7 @@
   },
   {
     "id": 355,
-    "title": "Kth Largest Element In An Array",
+    "title": "Kth Largest Element in an Array",
     "slug": "kth-largest-element-in-an-array",
     "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
     "topic": "Heap & Priority Queue",
@@ -6356,7 +5284,7 @@
   },
   {
     "id": 358,
-    "title": "Kth Largest Element In a Stream",
+    "title": "Kth Largest Element in a Stream",
     "slug": "kth-largest-element-in-a-stream",
     "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
     "topic": "Heap & Priority Queue",
@@ -6402,17 +5330,6 @@
     ],
     "mlBoost": true,
     "notes": "Partial sort"
-  },
-  {
-    "title": "Top K Frequent Elements (revisit with heap approach)",
-    "difficulty": "Medium",
-    "topic": "Heap & Priority Queue",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added in custom order mapping",
-    "url": "https://leetcode.com/problemset/all/?search=Top%20K%20Frequent%20Elements%20(revisit%20with%20heap%20approach)"
   },
   {
     "title": "Sort Characters By Frequency",
@@ -6540,7 +5457,7 @@
   },
   {
     "id": 357,
-    "title": "Find Median From Data Stream",
+    "title": "Find Median from Data Stream",
     "slug": "find-median-from-data-stream",
     "url": "https://leetcode.com/problems/find-median-from-data-stream/",
     "topic": "Heap & Priority Queue",
@@ -6700,22 +5617,6 @@
     "notes": "Simple heap"
   },
   {
-    "id": 371,
-    "title": "K-th Largest element in an array",
-    "slug": "k-th-largest-element-in-an-array",
-    "url": "https://leetcode.com/problems/k-th-largest-element-in-an-array/",
-    "topic": "Heap & Priority Queue",
-    "topicOrder": 8,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 390,
     "title": "N-Queens",
     "slug": "n-queens",
@@ -6733,7 +5634,7 @@
   },
   {
     "id": 401,
-    "title": "N Queens II",
+    "title": "N-Queens II",
     "slug": "n-queens-ii",
     "url": "https://leetcode.com/problems/n-queens-ii/",
     "topic": "Trie",
@@ -6749,7 +5650,7 @@
   },
   {
     "id": 404,
-    "title": "Rat in a Maze",
+    "title": "Rat in a Maze Problem",
     "slug": "rat-in-a-maze",
     "url": "https://leetcode.com/problems/rat-in-a-maze/",
     "topic": "Trie",
@@ -6765,7 +5666,7 @@
   },
   {
     "id": 398,
-    "title": "M Coloring Problem",
+    "title": "M-Coloring Problem",
     "slug": "m-coloring-problem",
     "url": "https://leetcode.com/problems/m-coloring-problem/",
     "topic": "Trie",
@@ -6861,7 +5762,7 @@
   },
   {
     "id": 397,
-    "title": "Word Break (print all ways)",
+    "title": "Word Break II",
     "slug": "word-break",
     "url": "https://leetcode.com/problems/word-break/",
     "topic": "Trie",
@@ -6874,22 +5775,6 @@
     ],
     "mlBoost": false,
     "notes": ""
-  },
-  {
-    "id": 407,
-    "title": "Word Break II",
-    "slug": "word-break-ii",
-    "url": "https://leetcode.com/problems/word-break-ii/",
-    "topic": "Trie",
-    "topicOrder": 9,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "Backtracking + Memo",
-    "companies": [
-      "Amazon"
-    ],
-    "mlBoost": false,
-    "notes": "Print all ways"
   },
   {
     "id": 389,
@@ -6986,7 +5871,7 @@
   },
   {
     "id": 578,
-    "title": "Longest Word with All Prefixes",
+    "title": "Complete String / Longest Word with All Prefixes",
     "slug": "longest-word-with-all-prefixes",
     "url": "https://leetcode.com/problems/longest-word-with-all-prefixes/",
     "topic": "Trie",
@@ -7002,7 +5887,7 @@
   },
   {
     "id": 580,
-    "title": "Number of distinct substrings in a string",
+    "title": "Number of Distinct Substrings in a String",
     "slug": "number-of-distinct-substrings-in-a-string",
     "url": "https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/",
     "topic": "Trie",
@@ -7034,7 +5919,7 @@
   },
   {
     "id": 583,
-    "title": "Maximum XOR of two numbers in an array",
+    "title": "Maximum XOR of Two Numbers in an Array",
     "slug": "maximum-xor-of-two-numbers-in-an-array",
     "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
     "topic": "Trie",
@@ -7179,7 +6064,7 @@
   },
   {
     "id": 585,
-    "title": "Maximum Xor with an element from an array",
+    "title": "Maximum XOR With an Element From Array",
     "slug": "maximum-xor-with-an-element-from-an-array",
     "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-an-array/",
     "topic": "Trie",
@@ -7195,25 +6080,9 @@
   },
   {
     "id": 586,
-    "title": "Trie Implementation and Advanced Operations",
+    "title": "Implement Trie II (Prefix Tree)",
     "slug": "trie-implementation-and-advanced-operations",
     "url": "https://leetcode.com/problems/trie-implementation-and-advanced-operations/",
-    "topic": "Trie",
-    "topicOrder": 13,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 587,
-    "title": "Trie Implementation and Operations",
-    "slug": "trie-implementation-and-operations",
-    "url": "https://leetcode.com/problems/trie-implementation-and-operations/",
     "topic": "Trie",
     "topicOrder": 13,
     "difficulty": "Hard",
@@ -7243,7 +6112,7 @@
   },
   {
     "id": 411,
-    "title": "Number of islands",
+    "title": "Number of Islands",
     "slug": "number-of-islands",
     "url": "https://leetcode.com/problems/number-of-islands/",
     "topic": "Graphs",
@@ -7277,7 +6146,7 @@
   },
   {
     "id": 435,
-    "title": "Flood-fill Algorithm",
+    "title": "Flood Fill",
     "slug": "flood-fill-algorithm",
     "url": "https://leetcode.com/problems/flood-fill-algorithm/",
     "topic": "Graphs",
@@ -7504,25 +6373,9 @@
   },
   {
     "id": 473,
-    "title": "Topological Sort DFS",
+    "title": "Topological Sort",
     "slug": "topological-sort-dfs",
     "url": "https://leetcode.com/problems/topological-sort-dfs/",
-    "topic": "Graphs",
-    "topicOrder": 10,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 472,
-    "title": "Topological Sort BFS",
-    "slug": "topological-sort-bfs",
-    "url": "https://leetcode.com/problems/topological-sort-bfs/",
     "topic": "Graphs",
     "topicOrder": 10,
     "difficulty": "Hard",
@@ -7874,7 +6727,7 @@
   },
   {
     "id": 462,
-    "title": "Dijkstra's algorithm",
+    "title": "Dijkstra's Algorithm",
     "slug": "dijkstras-algorithm",
     "url": "https://leetcode.com/problems/dijkstras-algorithm/",
     "topic": "Graphs",
@@ -7923,7 +6776,7 @@
   },
   {
     "id": 452,
-    "title": "Bellman ford algorithm",
+    "title": "Bellman-Ford Algorithm",
     "slug": "bellman-ford-algorithm",
     "url": "https://leetcode.com/problems/bellman-ford-algorithm/",
     "topic": "Graphs",
@@ -7939,7 +6792,7 @@
   },
   {
     "id": 465,
-    "title": "Floyd Warshall Algorithm",
+    "title": "Floyd-Warshall Algorithm",
     "slug": "floyd-warshall-algorithm",
     "url": "https://leetcode.com/problems/floyd-warshall-algorithm/",
     "topic": "Graphs",
@@ -7955,7 +6808,7 @@
   },
   {
     "id": 468,
-    "title": "MST using Prim's Algo",
+    "title": "Prim's Algorithm for Minimum Spanning Tree",
     "slug": "mst-using-prims-algo",
     "url": "https://leetcode.com/problems/mst-using-prims-algo/",
     "topic": "Graphs",
@@ -8165,40 +7018,8 @@
     "notes": ""
   },
   {
-    "id": 446,
-    "title": "Network Delay Time",
-    "slug": "network-delay-time",
-    "url": "https://leetcode.com/problems/network-delay-time/",
-    "topic": "Graphs",
-    "topicOrder": 10,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 453,
-    "title": "Bellman-Ford Algorithm",
-    "slug": "bellman-ford-algorithm",
-    "url": "https://leetcode.com/problems/bellman-ford-algorithm/",
-    "topic": "Graphs",
-    "topicOrder": 10,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "Shortest Path",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": "Know concept"
-  },
-  {
     "id": 454,
-    "title": "Bipartite Check using DFS",
+    "title": "Is Graph Bipartite?",
     "slug": "bipartite-check-using-dfs",
     "url": "https://leetcode.com/problems/bipartite-check-using-dfs/",
     "topic": "Graphs",
@@ -8213,74 +7034,10 @@
     "notes": ""
   },
   {
-    "id": 455,
-    "title": "Bipartite graph",
-    "slug": "bipartite-graph",
-    "url": "https://leetcode.com/problems/bipartite-graph/",
-    "topic": "Graphs",
-    "topicOrder": 10,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 458,
-    "title": "Detect A cycle in Undirected Graph using BFS",
+    "title": "Course Schedule / Detect Cycle in Undirected Graph",
     "slug": "detect-a-cycle-in-undirected-graph-using-bfs",
     "url": "https://leetcode.com/problems/detect-a-cycle-in-undirected-graph-using-bfs/",
-    "topic": "Graphs",
-    "topicOrder": 10,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 459,
-    "title": "Detect A cycle in Undirected Graph using DFS",
-    "slug": "detect-a-cycle-in-undirected-graph-using-dfs",
-    "url": "https://leetcode.com/problems/detect-a-cycle-in-undirected-graph-using-dfs/",
-    "topic": "Graphs",
-    "topicOrder": 10,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 460,
-    "title": "Detect A cycle in a Directed Graph using BFS",
-    "slug": "detect-a-cycle-in-a-directed-graph-using-bfs",
-    "url": "https://leetcode.com/problems/detect-a-cycle-in-a-directed-graph-using-bfs/",
-    "topic": "Graphs",
-    "topicOrder": 10,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 461,
-    "title": "Detect A cycle in a Directed Graph using DFS",
-    "slug": "detect-a-cycle-in-a-directed-graph-using-dfs",
-    "url": "https://leetcode.com/problems/detect-a-cycle-in-a-directed-graph-using-dfs/",
     "topic": "Graphs",
     "topicOrder": 10,
     "difficulty": "Hard",
@@ -8323,17 +7080,6 @@
     ],
     "mlBoost": false,
     "notes": ""
-  },
-  {
-    "title": "Dijkstra Algorithm",
-    "difficulty": "Medium",
-    "topic": "Graphs",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added from raw list 3",
-    "url": "https://leetcode.com/problemset/all/?search=Dijkstra%20Algorithm"
   },
   {
     "title": "Minimum Cost to Connect All Points",
@@ -8482,7 +7228,7 @@
   },
   {
     "id": 544,
-    "title": "Meeting Rooms II",
+    "title": "Minimum Number of Platforms / Meeting Rooms II",
     "slug": "meeting-rooms-ii",
     "url": "https://leetcode.com/problems/meeting-rooms-ii/",
     "topic": "Greedy & Intervals",
@@ -8514,38 +7260,6 @@
     ],
     "mlBoost": false,
     "notes": "Advanced variant"
-  },
-  {
-    "id": 564,
-    "title": "Minimum number of platforms required",
-    "slug": "minimum-number-of-platforms-required",
-    "url": "https://leetcode.com/problems/minimum-number-of-platforms-required/",
-    "topic": "Greedy & Intervals",
-    "topicOrder": 12,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 565,
-    "title": "N meetings in one room",
-    "slug": "n-meetings-in-one-room",
-    "url": "https://leetcode.com/problems/n-meetings-in-one-room/",
-    "topic": "Greedy & Intervals",
-    "topicOrder": 12,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "Interval Scheduling",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": "Same pattern"
   },
   {
     "title": "Interval List Intersections",
@@ -8737,7 +7451,7 @@
   },
   {
     "id": 560,
-    "title": "Job sequencing Problem",
+    "title": "Job Sequencing Problem",
     "slug": "job-sequencing-problem",
     "url": "https://leetcode.com/problems/job-sequencing-problem/",
     "topic": "Greedy & Intervals",
@@ -8769,7 +7483,7 @@
   },
   {
     "id": 570,
-    "title": "Minimum coins",
+    "title": "Coin Change",
     "slug": "minimum-coins",
     "url": "https://leetcode.com/problems/minimum-coins/",
     "topic": "Greedy & Intervals",
@@ -8841,22 +7555,6 @@
     ],
     "mlBoost": false,
     "notes": "Triple merging"
-  },
-  {
-    "id": 563,
-    "title": "Minimum number of platforms",
-    "slug": "minimum-number-of-platforms",
-    "url": "https://leetcode.com/problems/minimum-number-of-platforms/",
-    "topic": "Greedy & Intervals",
-    "topicOrder": 12,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "Sort + Events",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": "Same as Meeting Rooms II"
   },
   {
     "id": 474,
@@ -8989,35 +7687,6 @@
     ],
     "mlBoost": false,
     "notes": "Min coins variant"
-  },
-  {
-    "id": 476,
-    "title": "Coin Change",
-    "slug": "coin-change",
-    "url": "https://leetcode.com/problems/coin-change/",
-    "topic": "Dynamic Programming",
-    "topicOrder": 11,
-    "difficulty": "Medium",
-    "priority": "P0",
-    "pattern": "Unbounded Knapsack",
-    "companies": [
-      "Amazon",
-      "Google",
-      "Meta"
-    ],
-    "mlBoost": true,
-    "notes": "Core DP - BFS or DP approach"
-  },
-  {
-    "title": "Combination Sum IV",
-    "difficulty": "Medium",
-    "topic": "Dynamic Programming",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added in custom order mapping",
-    "url": "https://leetcode.com/problemset/all/?search=Combination%20Sum%20IV"
   },
   {
     "title": "Delete and Earn",
@@ -9296,7 +7965,7 @@
   },
   {
     "id": 498,
-    "title": "Subset Sum Equals Target",
+    "title": "Subset Sum Problem",
     "slug": "subset-sum-equals-target",
     "url": "https://leetcode.com/problems/subset-sum-equals-target/",
     "topic": "Dynamic Programming",
@@ -9361,7 +8030,7 @@
   },
   {
     "id": 522,
-    "title": "Rod cutting problem",
+    "title": "Rod Cutting Problem",
     "slug": "rod-cutting-problem",
     "url": "https://leetcode.com/problems/rod-cutting-problem/",
     "topic": "Dynamic Programming",
@@ -9409,7 +8078,7 @@
   },
   {
     "id": 479,
-    "title": "Longest common subsequence",
+    "title": "Longest Common Subsequence",
     "slug": "longest-common-subsequence",
     "url": "https://leetcode.com/problems/longest-common-subsequence/",
     "topic": "Dynamic Programming",
@@ -9423,23 +8092,6 @@
     ],
     "mlBoost": true,
     "notes": "Foundation 2D DP"
-  },
-  {
-    "id": 493,
-    "title": "Longest Palindromic Substring",
-    "slug": "longest-palindromic-substring",
-    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
-    "topic": "Dynamic Programming",
-    "topicOrder": 11,
-    "difficulty": "Medium",
-    "priority": "P1",
-    "pattern": "DP / Expand Center",
-    "companies": [
-      "Amazon",
-      "Meta"
-    ],
-    "mlBoost": false,
-    "notes": "String DP"
   },
   {
     "id": 495,
@@ -9459,7 +8111,7 @@
   },
   {
     "id": 482,
-    "title": "Edit distance",
+    "title": "Edit Distance",
     "slug": "edit-distance",
     "url": "https://leetcode.com/problems/edit-distance/",
     "topic": "Dynamic Programming",
@@ -9622,7 +8274,7 @@
   },
   {
     "id": 531,
-    "title": "Matrix chain multiplication",
+    "title": "Matrix Chain Multiplication",
     "slug": "matrix-chain-multiplication",
     "url": "https://leetcode.com/problems/matrix-chain-multiplication/",
     "topic": "Dynamic Programming",
@@ -9781,38 +8433,6 @@
     "notes": "Fee variant"
   },
   {
-    "id": 515,
-    "title": "Maximum Subarray",
-    "slug": "maximum-subarray",
-    "url": "https://leetcode.com/problems/maximum-subarray/",
-    "topic": "Dynamic Programming",
-    "topicOrder": 11,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 532,
-    "title": "Max Product Subarray",
-    "slug": "max-product-subarray",
-    "url": "https://leetcode.com/problems/max-product-subarray/",
-    "topic": "Dynamic Programming",
-    "topicOrder": 11,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 504,
     "title": "Maximum Sum Circular Subarray",
     "slug": "maximum-sum-circular-subarray",
@@ -9937,38 +8557,6 @@
     "notes": ""
   },
   {
-    "id": 527,
-    "title": "0 and 1 Knapsack",
-    "slug": "0-and-1-knapsack",
-    "url": "https://leetcode.com/problems/0-and-1-knapsack/",
-    "topic": "Dynamic Programming",
-    "topicOrder": 11,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 529,
-    "title": "Coin change II",
-    "slug": "coin-change-ii",
-    "url": "https://leetcode.com/problems/coin-change-ii/",
-    "topic": "Dynamic Programming",
-    "topicOrder": 11,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
     "id": 530,
     "title": "Longest Increasing Path In a Matrix",
     "slug": "longest-increasing-path-in-a-matrix",
@@ -9986,25 +8574,9 @@
   },
   {
     "id": 535,
-    "title": "Palindrome Partitioning (MCM Variation)",
+    "title": "Palindrome Partitioning II (MCM)",
     "slug": "palindrome-partitioning",
     "url": "https://leetcode.com/problems/palindrome-partitioning/",
-    "topic": "Dynamic Programming",
-    "topicOrder": 11,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 540,
-    "title": "Subset sum equals to target",
-    "slug": "subset-sum-equals-to-target",
-    "url": "https://leetcode.com/problems/subset-sum-equals-to-target/",
     "topic": "Dynamic Programming",
     "topicOrder": 11,
     "difficulty": "Hard",
@@ -10059,22 +8631,6 @@
     "companies": "",
     "notes": "Added from raw list 3",
     "url": "https://leetcode.com/problemset/all/?search=Top%20K%20Frequent%20Words"
-  },
-  {
-    "id": 185,
-    "title": "Rotten Oranges",
-    "slug": "rotten-oranges",
-    "url": "https://leetcode.com/problems/rotten-oranges/",
-    "topic": "Bit Manipulation",
-    "topicOrder": 4,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "General",
-    "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
   },
   {
     "id": 592,
@@ -10302,7 +8858,7 @@
   },
   {
     "id": 606,
-    "title": "Pow(x n)",
+    "title": "Pow(x, n)",
     "slug": "pow",
     "url": "https://leetcode.com/problems/pow/",
     "topic": "Math & Matrix",
@@ -10402,17 +8958,6 @@
     "companies": "",
     "notes": "Added from raw list 3",
     "url": "https://leetcode.com/problemset/all/?search=Fraction%20to%20Recurring%20Decimal"
-  },
-  {
-    "title": "Plus One (revisit)",
-    "difficulty": "Medium",
-    "topic": "Math & Matrix",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added in custom order mapping",
-    "url": "https://leetcode.com/problemset/all/?search=Plus%20One%20(revisit)"
   },
   {
     "id": 610,
@@ -10584,52 +9129,6 @@
     "notes": ""
   },
   {
-    "id": 611,
-    "title": "Set Matrix Zeroes (also in Arrays)",
-    "slug": "set-matrix-zeroes",
-    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
-    "topic": "Math & Matrix",
-    "topicOrder": 15,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "Matrix",
-    "companies": [
-      "Amazon",
-      "Microsoft"
-    ],
-    "mlBoost": true,
-    "notes": "Listed in arrays too"
-  },
-  {
-    "id": 613,
-    "title": "Spiral Matrix (also in Arrays)",
-    "slug": "spiral-matrix",
-    "url": "https://leetcode.com/problems/spiral-matrix/",
-    "topic": "Math & Matrix",
-    "topicOrder": 15,
-    "difficulty": "Medium",
-    "priority": "P2",
-    "pattern": "Matrix Traversal",
-    "companies": [
-      "Microsoft",
-      "Amazon",
-      "Google"
-    ],
-    "mlBoost": true,
-    "notes": "Listed in arrays too"
-  },
-  {
-    "title": "Pow(x, n)",
-    "difficulty": "Medium",
-    "topic": "Math & Matrix",
-    "priority": "P2",
-    "pattern": "",
-    "mlBoost": false,
-    "companies": "",
-    "notes": "Added from user list",
-    "url": "https://leetcode.com/problems/powx-n/"
-  },
-  {
     "id": 386,
     "title": "Letter Combinations of Phone Number",
     "slug": "letter-combinations-of-phone-number",
@@ -10646,51 +9145,147 @@
     "notes": "String backtracking"
   },
   {
-    "id": 392,
-    "title": "Word Search II (with Trie)",
-    "slug": "word-search-ii",
-    "url": "https://leetcode.com/problems/word-search-ii/",
-    "topic": "Backtracking",
-    "topicOrder": 9,
-    "difficulty": "Hard",
-    "priority": "P1",
-    "pattern": "Trie + Backtracking",
+    "id": 582,
+    "title": "Merge Sort Algorithm",
+    "slug": "merge-sort-algorithm-concept-impl-",
+    "url": "https://leetcode.com/problemset/all/?search=Merge%20Sort%20Algorithm%20(concept%2Fimpl)",
+    "topic": "Arrays & Hashing",
+    "difficulty": "Medium",
+    "priority": "P2",
+    "pattern": "",
     "companies": [
+      "Amazon",
       "Google"
     ],
     "mlBoost": false,
-    "notes": "Trie optimization"
+    "notes": "Imported from DSA_Tracker.csv"
   },
   {
-    "id": 400,
-    "title": "N Queen",
-    "slug": "n-queen",
-    "url": "https://leetcode.com/problems/n-queen/",
-    "topic": "Backtracking",
-    "topicOrder": 9,
+    "id": 583,
+    "title": "Sliding Window Median",
+    "slug": "sliding-window-median-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Sliding%20Window%20Median%20(Added)",
+    "topic": "Sliding Window",
     "difficulty": "Hard",
     "priority": "P2",
-    "pattern": "General",
+    "pattern": "",
     "companies": [
-      "FAANG"
-    ],
-    "mlBoost": false,
-    "notes": ""
-  },
-  {
-    "id": 402,
-    "title": "N-Queens II",
-    "slug": "n-queens-ii",
-    "url": "https://leetcode.com/problems/n-queens-ii/",
-    "topic": "Backtracking",
-    "topicOrder": 9,
-    "difficulty": "Hard",
-    "priority": "P2",
-    "pattern": "Backtracking",
-    "companies": [
+      "Amazon",
       "Google"
     ],
     "mlBoost": false,
-    "notes": "Count solutions"
+    "notes": "Imported from DSA_Tracker.csv"
+  },
+  {
+    "id": 585,
+    "title": "Course Schedule III",
+    "slug": "course-schedule-iii-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Course%20Schedule%20III%20(Added)",
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "priority": "P2",
+    "pattern": "",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "mlBoost": false,
+    "notes": "Imported from DSA_Tracker.csv"
+  },
+  {
+    "id": 586,
+    "title": "Word Ladder II",
+    "slug": "word-ladder-ii-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Word%20Ladder%20II%20(Added)",
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "priority": "P2",
+    "pattern": "",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "mlBoost": false,
+    "notes": "Imported from DSA_Tracker.csv"
+  },
+  {
+    "id": 587,
+    "title": "Shortest Path in DAG",
+    "slug": "shortest-path-in-directed-acyclic-graph-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Shortest%20Path%20in%20Directed%20Acyclic%20Graph%20(Added)",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "priority": "P2",
+    "pattern": "",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "mlBoost": false,
+    "notes": "Imported from DSA_Tracker.csv"
+  },
+  {
+    "id": 588,
+    "title": "Two City Scheduling",
+    "slug": "two-city-scheduling-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Two%20City%20Scheduling%20(Added)",
+    "topic": "Greedy & Intervals",
+    "difficulty": "Medium",
+    "priority": "P2",
+    "pattern": "",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "mlBoost": false,
+    "notes": "Imported from DSA_Tracker.csv"
+  },
+  {
+    "id": 589,
+    "title": "Russian Doll Envelopes",
+    "slug": "russian-doll-envelopes-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Russian%20Doll%20Envelopes%20(Added)",
+    "topic": "Dynamic Programming - 1D",
+    "difficulty": "Hard",
+    "priority": "P2",
+    "pattern": "",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "mlBoost": false,
+    "notes": "Imported from DSA_Tracker.csv"
+  },
+  {
+    "id": 590,
+    "title": "Longest Palindromic Subsequence",
+    "slug": "longest-palindromic-subsequence-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Longest%20Palindromic%20Subsequence%20(Added)",
+    "topic": "Dynamic Programming - Strings",
+    "difficulty": "Medium",
+    "priority": "P2",
+    "pattern": "",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "mlBoost": false,
+    "notes": "Imported from DSA_Tracker.csv"
+  },
+  {
+    "id": 591,
+    "title": "Scramble String",
+    "slug": "scramble-string-added-",
+    "url": "https://leetcode.com/problemset/all/?search=Scramble%20String%20(Added)",
+    "topic": "Dynamic Programming - Strings",
+    "difficulty": "Hard",
+    "priority": "P2",
+    "pattern": "",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "mlBoost": false,
+    "notes": "Imported from DSA_Tracker.csv"
   }
 ]

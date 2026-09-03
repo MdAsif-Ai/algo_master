@@ -4,10 +4,10 @@ import Header from './components/Header';
 import FilterBar from './components/FilterBar';
 import RoadmapView from './components/RoadmapView';
 import ProblemModal from './components/ProblemModal';
-import { useLocalStorage } from './hooks/useLocalStorage';
+import AuthModal from './components/AuthModal';
+import { supabase } from './lib/supabase';
+import { useSupabaseData } from './hooks/useSupabaseData';
 
-// Since we migrated the script that attached to window, we will just fetch the JSON.
-// In a real app we'd import the JSON directly or fetch it.
 import problemsData from './data/problems.json';
 
 // Define modules in the user's exact ordered curriculum
@@ -31,9 +31,14 @@ const MODULES = [
 ];
 
 function App() {
+  // ─── Auth State ─────────────────────────────────────────────────────────
+  const [user, setUser] = useState(null);
+  const [authLoading, setAuthLoading] = useState(true);
+
+  // ─── Problem Data ────────────────────────────────────────────────────────
   const [problems, setProblems] = useState([]);
-  
-  // State for filtering
+
+  // ─── Filtering State ─────────────────────────────────────────────────────
   const [searchQuery, setSearchQuery] = useState('');
   const [filters, setFilters] = useState({
     priority: [],
@@ -43,24 +48,45 @@ function App() {
     starredOnly: false
   });
 
-  // Persistent State
-  const [solvedState, setSolvedState] = useLocalStorage('algomaster_solved', {});
-  const [starredState, setStarredState] = useLocalStorage('algomaster_starred', {});
-  const [notesState, setNotesState] = useLocalStorage('algomaster_notes', {});
-  const [codeState, setCodeState] = useLocalStorage('algomaster_code', {}); // New Feature
-
   const [activeProblem, setActiveProblem] = useState(null);
 
-  // Initialize data
+  // ─── Supabase Cloud Data ─────────────────────────────────────────────────
+  const {
+    solvedState,
+    starredState,
+    notesState,
+    codeState,
+    loading: dataLoading,
+    toggleSolved,
+    toggleStarred,
+    saveCode,
+    saveNotes,
+  } = useSupabaseData(user?.id);
+
+  // ─── Auth Listener ────────────────────────────────────────────────────────
   useEffect(() => {
-    // Inject IDs and ModuleIds based on topic
+    // Get current session on mount
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null);
+      setAuthLoading(false);
+    });
+
+    // Listen for auth state changes (login/logout)
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  // ─── Initialize Problem List ──────────────────────────────────────────────
+  useEffect(() => {
     const moduleMap = {};
     MODULES.forEach(m => moduleMap[m.name] = m.id);
 
     const enriched = problemsData.map((p, index) => {
       const t = p.topic || 'Other';
       const modId = moduleMap[t];
-      
       return {
         ...p,
         id: `prob_${index}`,
@@ -79,36 +105,17 @@ function App() {
     setProblems(enriched);
   }, []);
 
-  const handleToggleSolved = (id) => {
-    setSolvedState(prev => ({
-      ...prev,
-      [id]: !prev[id]
-    }));
+  // ─── Logout ───────────────────────────────────────────────────────────────
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setUser(null);
   };
 
-  const handleToggleStar = (id) => {
-    setStarredState(prev => ({
-      ...prev,
-      [id]: !prev[id]
-    }));
-  };
-
-  const handleSaveNotes = (id, notes) => {
-    setNotesState(prev => ({
-      ...prev,
-      [id]: notes
-    }));
-  };
-
-  const handleSaveCode = (id, code) => {
-    setCodeState(prev => ({
-      ...prev,
-      [id]: code
-    }));
-  };
-
+  // ─── Export Backup ────────────────────────────────────────────────────────
   const handleExport = () => {
     const data = {
+      exportedAt: new Date().toISOString(),
+      userEmail: user?.email,
       solved: solvedState,
       starred: starredState,
       notes: notesState,
@@ -123,78 +130,77 @@ function App() {
     URL.revokeObjectURL(url);
   };
 
-  const handleImport = (file) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      try {
-        const data = JSON.parse(e.target.result);
-        if (data.solved) setSolvedState(data.solved);
-        if (data.starred) setStarredState(data.starred);
-        if (data.notes) setNotesState(data.notes);
-        if (data.code) setCodeState(data.code);
-        alert('Data imported successfully!');
-      } catch (err) {
-        alert('Failed to parse JSON file.');
-      }
-    };
-    reader.readAsText(file);
-  };
-
-  // Compute derived state for Sidebar
+  // ─── Derived Sets ─────────────────────────────────────────────────────────
   const solvedSet = new Set(Object.keys(solvedState).filter(k => solvedState[k]));
   const starredSet = new Set(Object.keys(starredState).filter(k => starredState[k]));
-  
+
   const moduleStats = MODULES.map(m => {
     const modProbs = problems.filter(p => p.ModuleId === m.id);
     const modSolved = modProbs.filter(p => solvedSet.has(p.id)).length;
-    return {
-      id: m.id,
-      name: m.name,
-      total: modProbs.length,
-      solved: modSolved
-    };
+    return { id: m.id, name: m.name, total: modProbs.length, solved: modSolved };
   });
 
+  // ─── Show Auth Modal if not logged in ─────────────────────────────────────
+  if (authLoading) {
+    return (
+      <div style={{
+        height: '100vh', display: 'flex', alignItems: 'center',
+        justifyContent: 'center', fontSize: '1.25rem', color: '#6b7280'
+      }}>
+        Loading AlgoMaster...
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <AuthModal onAuthSuccess={(user) => setUser(user)} />;
+  }
+
+  // ─── Main App ─────────────────────────────────────────────────────────────
   return (
     <div className="app-container">
-      <Sidebar 
-        moduleStats={moduleStats} 
+      <Sidebar
+        moduleStats={moduleStats}
         totalProblems={problems.length}
         totalSolved={solvedSet.size}
       />
-      
+
       <main className="main-content">
-        <Header 
+        <Header
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onExport={handleExport}
-          onImport={handleImport}
+          user={user}
+          onLogout={handleLogout}
+          dataLoading={dataLoading}
         />
-        
-        <FilterBar 
+
+        <FilterBar
           filters={filters}
           setFilters={setFilters}
         />
-        
-        <RoadmapView 
+
+        <RoadmapView
           modules={MODULES}
           problems={problems}
-          filters={{...filters, searchQuery, starredSet}}
+          filters={{ ...filters, searchQuery, starredSet }}
           solvedSet={solvedSet}
-          onToggleSolved={handleToggleSolved}
+          onToggleSolved={toggleSolved}
           onProblemClick={setActiveProblem}
         />
       </main>
 
-      <ProblemModal 
+      <ProblemModal
         problem={activeProblem}
         onClose={() => setActiveProblem(null)}
-        savedNotes={activeProblem ? notesState[activeProblem.id] : ''}
-        savedCode={activeProblem ? codeState[activeProblem.id] : ''}
+        savedNotes={activeProblem ? notesState[activeProblem.id] || '' : ''}
+        savedCode={activeProblem ? codeState[activeProblem.id] || '' : ''}
         isStarred={activeProblem ? starredSet.has(activeProblem.id) : false}
-        onSaveNotes={handleSaveNotes}
-        onSaveCode={handleSaveCode}
-        onToggleStar={handleToggleStar}
+        onSaveNotes={saveNotes}
+        onSaveCode={saveCode}
+        onToggleStar={toggleStarred}
+        isSolved={activeProblem ? solvedSet.has(activeProblem.id) : false}
+        onToggleSolved={toggleSolved}
       />
     </div>
   );
